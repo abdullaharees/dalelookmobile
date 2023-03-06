@@ -1,0 +1,17 @@
+/* Decrease size of pagination bullets */
+.slider2 .swiper-pagination-bullet {
+    height: 0.3rem;
+    width: 0.3rem;
+  }
+  
+  .slider2  .swiper-button-prev,
+  .slider2  .swiper-button-next {
+    width: 1rem;
+    height: 3rem;
+  }
+  
+  /* Decrease size of arrow button icons */
+  .slider2  .swiper-button-prev::after,
+  .slider2  .swiper-button-next::after {
+    font-size: 1.5rem;
+  }

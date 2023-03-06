@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+
+import "./Fonts/Tajawal-Black.ttf"
+import "./Fonts/Tajawal-Bold.ttf"
+import "./Fonts/Tajawal-ExtraBold.ttf"
+import "./Fonts/Tajawal-ExtraLight.ttf"
+import "./Fonts/Tajawal-Light.ttf"
+import "./Fonts/Tajawal-Medium.ttf"
+import "./Fonts/Tajawal-Regular.ttf"
+
+import { Route, Routes, BrowserRouter as Router  } from "react-router-dom";
+
+import Homepage from './Components/Home/Homepage'
+import Categorypage from './Components/Home/Categorypage'
+import Homepackages from './Components/Bank/Homepackages'
+import Cardpage from './Components/Bank/Cardpage'
+import Homeproceed from './Components/Bank/Homeproceed'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="tajawal">
+      <Router>
+        <Routes>
+
+          <Route path="/" element={<Homepage />} />           
+
+            <Route path='/category' element={<Categorypage />} />
+            <Route path='/packages' element={<Homepackages />} />
+            <Route path='/cardpage' element={<Cardpage />} />
+            <Route path='/proceed' element={<Homeproceed />} />
+
+
+
+        </Routes>
+      </Router>
     </div>
   );
 }
-
 export default App;

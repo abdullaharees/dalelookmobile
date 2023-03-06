@@ -1,0 +1,12 @@
+<svg id="userpasstwo" xmlns="http://www.w3.org/2000/svg" width="9.862" height="15.395" viewBox="0 0 9.862 15.395">
+  <g id="Group_1195" data-name="Group 1195" transform="translate(1.323)">
+    <path id="Path_1087" data-name="Path 1087" d="M49.622,48.435a.776.776,0,0,1-.722-.722V45.428a3.728,3.728,0,1,1,7.457,0v.722a.722.722,0,1,1-1.443,0v-.722a2.285,2.285,0,1,0-4.57,0v2.285A.693.693,0,0,1,49.622,48.435Z" transform="translate(-48.9 -41.7)" fill="#56575c"/>
+  </g>
+  <path id="Path_1088" data-name="Path 1088" d="M56.46,56.061H49a1.205,1.205,0,0,1-1.2-1.2V48A1.205,1.205,0,0,1,49,46.8H56.46a1.205,1.205,0,0,1,1.2,1.2v6.856A1.136,1.136,0,0,1,56.46,56.061Z" transform="translate(-47.8 -40.666)" fill="#56575c"/>
+  <g id="Group_1196" data-name="Group 1196" transform="translate(4.57 10.825)">
+    <path id="Path_1089" data-name="Path 1089" d="M52.081,53.105a.517.517,0,0,1-.481-.481V51.181a.481.481,0,1,1,.962,0v1.443C52.442,52.865,52.322,53.105,52.081,53.105Z" transform="translate(-51.6 -50.7)" fill="#fff"/>
+  </g>
+  <g id="Group_1197" data-name="Group 1197" transform="translate(3.728 8.78)">
+    <path id="Path_1090" data-name="Path 1090" d="M52.223,51.646a1.323,1.323,0,1,1,1.323-1.323A1.422,1.422,0,0,1,52.223,51.646Zm0-1.684a.361.361,0,1,0,.361.361A.384.384,0,0,0,52.223,49.962Z" transform="translate(-50.9 -49)" fill="#fff"/>
+  </g>
+</svg>
