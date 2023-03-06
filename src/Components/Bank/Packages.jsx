@@ -168,7 +168,6 @@ const [layout, setLayout] = useState(1)
 
        </div> 
 
-            <Cardone />
 
     </div> 
 

@@ -22,7 +22,7 @@ const [nav, setNav] = useState(false)
 
   return (
     <div>
-        <div className='max-w-[375px] bg-[#F8F8F8] h-[3rem] flex justify-between items-center'>
+        <div className=' bg-[#F8F8F8] h-[3rem] flex justify-between items-center'>
 
             {/* Left Side */}
             <div className='flex ml-4 mr-2'>
