@@ -17,11 +17,11 @@ export default function Languagedrop() {
         <Menu as="div" className="relative  text-left ">
             <div className="arabic ">
                 <Menu.Button className="text-[#0092A0] inline-flex justify-center 
-                px-2 mr-16
+                px-2 mr-20
                 text-sm font-medium text-[#0092A0]shadow-sm">
-                    <RiArrowDownSLine size={20} className='cursor-pointer'/>
+                    <RiArrowDownSLine size={15} className='text-[#737373] font-bold mt-[] cursor-pointer'/>
                     {/* <span className="text-[#0092A0] text-sm ">العربية</span> */}
-                    <img className='w-[1.3rem] mr-2' src={se} alt="se" />
+                    <img className='w-[1rem] ' src={se} alt="se" />
                     
 
                 </Menu.Button>

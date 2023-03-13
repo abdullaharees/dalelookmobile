@@ -56,86 +56,10 @@ const [nav, setNav] = useState(false)
                         <Notifdrop />
                     </div>
 
-                    <div onClick={() => setNav(!nav)} className='cursor-pointer pt-1 mr-5'>
-                        <AiOutlineMenu className='text-[#333333] ' size={25}/>
+                    <div onClick={() => setNav(!nav)} className='cursor-pointer mr-5'>
+                        <AiOutlineMenu className='text-[#333333] ' size={23}/>
                     </div>
                     
-                    {/* <div className={nav ? 'fixed top-0 right-0 w-[15rem] h-screen bg-white z-30 duration-300' : 'fixed top-0 right-[-100%] w-[300px] h-screen bg-white z-10 duration-300'}>
-                                <img className="relative w-full" src={menutop} alt="price" />
-                                <AiOutlineClose
-                                onClick={() => setNav(!nav)} 
-                                size={20} className='absolute right-4 top-3 cursor-pointer text-white'/>
-                                <img className="absolute top-[3.5rem] right-[3rem] w-[9rem]" src={logowhite} alt="price" />
-
-                        <nav className='ml-5 arabic mr-6'> 
-                            <ul className=' flex flex-col pt-[2rem] text-gray-800'>      
-                                <Link to="/packages" onClick={() => setNav(!nav)} >
-                                    <li className='text-xl py-2 flex '>
-                                        <BsFillHouseDoorFill className='arabic mt-1 mr-2 ml-3 text-[1.2rem] text-[#0092A0]'/>
-                                        <p className='text-[#0092A0] ml-2 text-[1rem]'>الرئيسية</p> 
-                                    </li>  
-                                </Link>                      
-                                
-                                <Link to='/myprofile' onClick={() => setNav(!nav)} >
-                                    <li className='text-xl py-2 flex text-[#0092A0]'>
-                                        <img className='w-[1.25rem]  mr-2 ml-3' src={path} alt="user" />
-                                        <p className='text-[#0092A0] ml-2 text-[1rem]'>ابحث عن إعلان</p> 
-                                    </li>  
-                                </Link>  
-
-                                    <li className='text-xl py-2 flex text-[#0092A0]'>
-                                        <img className="w-[1.3rem] mr-2 ml-3" src={Logoonly} alt="Company Logo two" />
-                                        <p className='text-[#F89C35] ml-2 text-[1rem]'>الدليل الإماراتي</p> 
-                                    </li>   
-
-                                <Link to="/proceed" onClick={() => setNav(!nav)} >
-                                    <li className='text-xl py-2 flex text-[#0092A0]'>
-                                        <img className="w-[15px] mr-2 ml-3" src={plusnav} alt="Company Logo" />
-                                        <p className='text-[#0092A0] ml-2 text-[1rem]'>أضف إعلانك مجاناً</p> 
-                                    </li> 
-                                </Link>    
-                                <Link to="/packages" onClick={() => setNav(!nav)} >
-                                    <li className='text-xl py-2 flex '>
-                                        <img className="w-[1.3rem] mr-2 ml-3" src={price} alt="price" />
-                                        <p className='text-[#0092A0] ml-2 text-[1rem]'>الباقات</p> 
-                                    </li>  
-                                </Link>     
-                            </ul>
-                        </nav> 
-
-                        <div className='flex text-[#4E4E4E] flex-col arabic mr-6 space-y-3 mt-[20rem]'>
-                            <div className='flex'>
-                                <p>وضعية الظلام</p>
-                                <img className="w-[1.3rem] mr-8 ml-3" src={darkmodem} alt="darkmodem" />
-                                <img className="w-[1.3rem] mr-2 ml-3" src={lightmodem} alt="lightmodem" /> 
-                            </div>    
-                            <p>تواصل معنا</p>
-                            <p>عن منصة دليلك</p>
-                            <div className='flex'>
-                                <p>احتر اللغة</p>
-                                <Languagedrop />
-                            </div>
-                            <p>كن وكيلنا</p>
-                            <p>البنود و الشروط</p>
-                        </div>
-
-                        <div
-                        className='flex justify-center mt-8 ml-[4rem] py-[0.4rem] w-[8rem] bg-[#0092A0] rounded-full'>
-                            <RxExit className='text-white mr-1' size={15}/>
-                            <text className=' text-[0.7rem] font-bold  text-white text-center cursor-pointer'>
-                             تسجيل الدخول </text> 
-                        </div>
-                        
-                        <div className='flex justify-center mt-3'>
-                            <div className='content-between border-b-[2px] w-full mt-2 mb-1'></div>
-                        </div>
-
-                        <div className='flex flex-col justify-center items-center'>
-                            <p className='text-[#737373] font-light'>تم تنفيذ و تطوير هذا التطبيق بواسطة</p>
-                            <p className='text-[#AD2822] text-xs'>Why Not Tech</p>
-                        </div>
-                    </div> */}
-
                     <div className={nav ? 'fixed top-0 right-0 w-[15rem] h-screen bg-white z-30 duration-300' : 'fixed top-0 right-[-100%] w-[300px] h-screen bg-white z-10 duration-300'}>
                                 <img className="relative w-full" src={menutop} alt="price" />
                                 <AiOutlineClose
@@ -143,47 +67,58 @@ const [nav, setNav] = useState(false)
                                 size={20} className='absolute right-4 top-3 cursor-pointer text-white'/>
                                 <img className="absolute top-[3.5rem] right-[3rem] w-[9rem]" src={logowhite} alt="price" />
 
-                        <nav className='ml-5 arabic mr-6'> 
-                            <ul className=' flex flex-col pt-[2rem] text-gray-800'>      
+                        <nav className=' arabic'> 
+                            <ul className='space-y-1.5 flex flex-col pt-[1rem] text-gray-800'>      
                                 <Link to="/packages" onClick={() => setNav(!nav)} >
-                                    <li className='text-xl py-2 flex '>
+                                    <li className='text-xl mt-4 flex mr-5'>
                                         <BsFillHouseDoorFill className='arabic mt-1 mr-2 ml-3 text-[1.2rem] text-[#0092A0]'/>
-                                        <p className='text-[#0092A0] ml-2 text-[1rem]'>الرئيسية</p> 
-                                    </li>  
-                                </Link>                      
-                                
-                                <Link to='/myprofile' onClick={() => setNav(!nav)} >
-                                    <li className='text-xl py-2 flex text-[#0092A0]'>
-                                        <img className='w-[1.25rem]  mr-2 ml-3' src={path} alt="user" />
-                                        <p className='text-[#0092A0] ml-2 text-[1rem]'>ابحث عن إعلان</p> 
+                                        <p className='text-[#0092A0] ml-2 text-[0.9rem]'>الرئيسية</p> 
                                     </li>  
                                 </Link>  
 
-                                    <li className='text-xl py-2 flex text-[#0092A0]'>
-                                        <img className="w-[1.3rem] mr-2 ml-3" src={Logoonly} alt="Company Logo two" />
-                                        <p className='text-[#F89C35] ml-2 text-[1rem]'>الدليل الإماراتي</p> 
+                                <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
+                                
+                                <Link to='/myprofile' onClick={() => setNav(!nav)} >
+                                    <li className='flex mr-5 text-[#0092A0]'>
+                                        <img className='w-[1.1rem]  mr-2 ml-3' src={path} alt="user" />
+                                        <p className='text-[#0092A0] ml-2  text-[0.9rem]'>ابحث عن إعلان</p> 
+                                    </li>  
+                                </Link>  
+
+                                <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
+
+                                    <li className='flex mr-5 text-[#0092A0]'>
+                                        <img className="w-[1.1rem] mr-2 ml-3" src={Logoonly} alt="Company Logo two" />
+                                        <p className='text-[#F89C35] ml-2 mt-[0.1rem] text-[0.9rem]'>الدليل الإماراتي</p> 
                                     </li>   
 
+                                    <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
+
                                 <Link to="/proceed" onClick={() => setNav(!nav)} >
-                                    <li className='text-xl py-2 flex text-[#0092A0]'>
+                                    <li className='mt-[0.1rem] flex mr-5 text-[#0092A0]'>
                                         <img className="w-[15px] mr-2 ml-3" src={plusnav} alt="Company Logo" />
-                                        <p className='text-[#0092A0] ml-2 text-[1rem]'>أضف إعلانك مجاناً</p> 
+                                        <p className='text-[#0092A0] ml-2  text-[0.9rem]'>أضف إعلانك مجاناً</p> 
                                     </li> 
                                 </Link>    
+
+                                <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
+
                                 <Link to="/packages" onClick={() => setNav(!nav)} >
-                                    <li className='text-xl py-2 flex '>
-                                        <img className="w-[1.3rem] mr-2 ml-3" src={price} alt="price" />
-                                        <p className='text-[#0092A0] ml-2 text-[1rem]'>الباقات</p> 
+                                    <li className=' flex mr-5 '>
+                                        <img className="w-[1.1rem] mr-2 ml-3" src={price} alt="price" />
+                                        <p className='text-[#0092A0] ml-2  text-[0.9rem]'>الباقات</p> 
                                     </li>  
-                                </Link>     
+                                </Link>
+                                <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
+
                             </ul>
                         </nav> 
 
-                        <div className='flex text-[#4E4E4E] flex-col arabic mr-6 space-y-3 mt-[20rem]'>
+                        <div className='flex text-[#4E4E4E] flex-col arabic mr-6 space-y-3 mt-[2rem]'>
                             <div className='flex'>
                                 <p>وضعية الظلام</p>
-                                <img className="w-[1.3rem] mr-8 ml-3" src={darkmodem} alt="darkmodem" />
-                                <img className="w-[1.3rem] mr-2 ml-3" src={lightmodem} alt="lightmodem" /> 
+                                <img className="w-[1.7rem] mr-8 ml-3" src={darkmodem} alt="darkmodem" />
+                                <img className="w-[1.7rem] mr-2 ml-3" src={lightmodem} alt="lightmodem" /> 
                             </div>    
                             <p>تواصل معنا</p>
                             <p>عن منصة دليلك</p>
@@ -211,6 +146,8 @@ const [nav, setNav] = useState(false)
                             <p className='text-[#AD2822] text-xs'>Why Not Tech</p>
                         </div>
                     </div>
+
+                    
 
             </div>    
       

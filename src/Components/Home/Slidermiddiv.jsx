@@ -45,9 +45,9 @@ return (
     </div>
 
 
-    <div className='bg-white  flex justify-between h-[20rem] w-full px-[1rem] rounded-b-sm object-cover'>
+    <div className='bg-white flex justify-between h-[17.5rem] w-full px-[1rem] rounded-b-sm object-cover'>
 
-        <div className='flex justify-center flex-wrap xl:flex-nowrap w-full h-full'>
+        <div className='flex justify-center flex-nowrap w-full h-full'>
 
         <Swiper
             
@@ -58,10 +58,10 @@ return (
             modules={[Navigation, Pagination, Mousewheel, Keyboard]}
             onSwiper={setSwiper}
             direction="horizontal"
-            spaceBetween={10}
+            spaceBetween={30}
             slidesPerView={2}
 
-            className="mySwiper w-full bottom-5 flex justify-center flex-wrap xl:flex-nowrap"
+            className="mySwiper slider2 w-full bottom-5 flex justify-center flex-wrap xl:flex-nowrap"
           >
         
           
