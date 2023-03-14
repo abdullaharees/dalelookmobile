@@ -15,6 +15,7 @@ import Categorypage from './Components/Home/Categorypage'
 import Homepackages from './Components/Bank/Homepackages'
 import Cardpage from './Components/Bank/Cardpage'
 import Homeproceed from './Components/Bank/Homeproceed'
+import Homeproduct from './Components/Realestate/Homeproduct'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path='/packages' element={<Homepackages />} />
             <Route path='/cardpage' element={<Cardpage />} />
             <Route path='/proceed' element={<Homeproceed />} />
+            <Route path='/product' element={<Homeproduct />} />
 
 
 

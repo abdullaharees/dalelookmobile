@@ -31,7 +31,7 @@ const [nav, setNav] = useState(false)
 
   return (
     <div>
-        <div className=' bg-[#F8F8F8] h-[3rem] flex justify-between items-center'>
+        <div className=' bg-[#F8F8F8] h-[2.7rem] flex justify-between items-center'>
 
             {/* Left Side */}
             <div className='flex ml-4 mr-2'>
@@ -117,8 +117,8 @@ const [nav, setNav] = useState(false)
                         <div className='flex text-[#4E4E4E] flex-col arabic mr-6 space-y-3 mt-[2rem]'>
                             <div className='flex'>
                                 <p>وضعية الظلام</p>
-                                <img className="w-[1.7rem] mr-8 ml-3" src={darkmodem} alt="darkmodem" />
-                                <img className="w-[1.7rem] mr-2 ml-3" src={lightmodem} alt="lightmodem" /> 
+                                <img className="w-[1.9rem] mr-10 ml-3" src={darkmodem} alt="darkmodem" />
+                                <img className="w-[1.9rem] mr-1 ml-3" src={lightmodem} alt="lightmodem" /> 
                             </div>    
                             <p>تواصل معنا</p>
                             <p>عن منصة دليلك</p>

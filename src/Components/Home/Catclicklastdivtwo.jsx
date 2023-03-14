@@ -16,15 +16,18 @@ const Catclicklastdivtwo = () => {
 
     <div className='flex-col justify-start flex-nowrap xl:flex-wrap bg-white shadow-lg sm:h-[160rem] md:h-[80rem] xl:h-[45rem] rounded-b-sm py-2 px-8 w-full'>
 
-
+        <div className='flex items-center justify-center px-2 w-full text-lg text-[#2D4373] mt-3 arabic'>
+            <p>اسم الصفحة </p>
+            <p className='font-bold mr-2'> ( العقارات )</p>
+        </div>
 
       <div className='flex justify-center flex-wrap xl:flex-nowrap w-full mt-4'>
 
-        <div className=' flex justify-center flex-wrap xl:flex-nowrap py-2 xl:py-0 px-2 xl:px-0'>    
+        <div className=' flex justify-center flex-wrap px-2'>    
           <Componenttwo />
         </div>
 
-        <div className=' flex justify-center flex-wrap xl:flex-nowrap py-2 xl:py-0 px-2 xl:px-0'>    
+        <div className=' flex justify-center flex-wrap px-2'>    
           <Componenttwo />
         </div>
 
@@ -32,13 +35,13 @@ const Catclicklastdivtwo = () => {
 
 
 
-      <div className='flex justify-center flex-wrap xl:flex-nowrap w-full mt-4'>
+      <div className='flex justify-center flex-wrap xl:flex-nowrap w-full mt-1'>
 
-        <div className=' flex justify-center flex-wrap xl:flex-nowrap py-2 xl:py-0 px-2 xl:px-0'>    
+        <div className=' flex justify-center flex-wrap px-2'>    
           <Componenttwo />
         </div>
 
-        <div className=' flex justify-center flex-wrap xl:flex-nowrap py-2 xl:py-0 px-2 xl:px-0'>    
+        <div className=' flex justify-center flex-wrap px-2'>    
           <Componenttwo />
         </div>
 
@@ -46,13 +49,13 @@ const Catclicklastdivtwo = () => {
 
 
 
-      <div className='flex justify-center flex-wrap xl:flex-nowrap w-full mt-4'>
+      <div className='flex justify-center flex-wrap xl:flex-nowrap w-full mt-1'>
 
-        <div className=' flex justify-center flex-wrap xl:flex-nowrap py-2 xl:py-0 px-2 xl:px-0'>    
+        <div className=' flex justify-center flex-wrap px-2 '>    
           <Componenttwo />
         </div>
 
-        <div className=' flex justify-center flex-wrap xl:flex-nowrap py-2 xl:py-0 px-2 xl:px-0'>    
+        <div className=' flex justify-center flex-wrap px-2 '>    
           <Componenttwo />
         </div>
 

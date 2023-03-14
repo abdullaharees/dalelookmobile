@@ -14,10 +14,7 @@ const Categorypage = () => {
         <Catbar />
         <Searchbar />
         <Topsliderone />
-        <Divcheckbox />
-        <Catclicklastdiv />
         <Catclicklastdivtwo />
-        
     </div>
   )
 }

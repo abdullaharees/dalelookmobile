@@ -9,8 +9,7 @@ export default function Popupads() {
     <>
       <button
         className="cursor-pointer mt-6 mb-12 rounded-full flex justify-end shadow-[rgba(0,_0,_0,_0.18)_0px_2px_5px] 
-        text-sm font-bold bg-[#0092A0] text-white text-center py-1 px-5 border-[2px] border-[#0092A0]
-        hover:shadow-lg hover:text-[#0092A0] hover:border-[#0092A0] hover:border-2 hover:bg-white  mr-1 ease-linear transition-all duration-150"
+        text-xs font-bold bg-[#0092A0] text-white text-center py-1 px-5 border-[2px] border-[#0092A0]"
         type="button"
         onClick={() => setShowModal(true)}
       >

@@ -21,11 +21,11 @@ const [layout, setLayout] = useState(3)
 
         { layout === 3 ? (<>        
 
-            <div className='h-[50px] mt-[2rem] mb-3 justify-end rounded-t-sm'>
+            <div className='h-[50px] mt-[1rem] justify-end rounded-t-sm'>
                 <div className='flex w-full mt-2.5 justify-end'>
                     <div className='flex arabic justify-end mr-6'>
-                        <p className=' text-xl font-bold mr-1 text-right'>اختار نوع الإعلان</p>
-                        <img className='relative w-[30px] mr-3' src={pricebl} alt="pricew" />
+                        <p className=' text-md font-bold mr-1 text-right'>اختار نوع الإعلان</p>
+                        <img className='relative w-[1.2rem] mr-3' src={pricebl} alt="pricew" />
                     </div>
                 </div>
             </div>
@@ -40,8 +40,8 @@ const [layout, setLayout] = useState(3)
                         </div>
 
                         <div className=' arabic text-right mr-6'>
-                            <input type="radio" id="css" className='ml-1 text-sm' name="prof" value="CSS" />
-                            <label for="css" className='text-[#444444] font-bold pt-1 pr-1 text-sm'>الإعلان المجاني</label> 
+                            <input type="radio" id="css" className='ml-1' name="prof" value="CSS" />
+                            <label for="css" className='text-[#444444] font-bold  pr-1 text-sm'>الإعلان المجاني</label> 
                         </div>
 
                     </div>
@@ -57,7 +57,7 @@ const [layout, setLayout] = useState(3)
 
                         <div className=' arabic text-right mr-6'>
                             <input type="radio" id="css" className='ml-1 text-sm' name="prof" value="CSS" />
-                            <label for="css" className='text-[#444444] font-bold pt-1 pr-1 text-sm'>الإعلان الممول</label> 
+                            <label for="css" className='text-[#444444] font-bold pr-1 text-sm'>الإعلان الممول</label> 
                         </div>
 
                     </div>
@@ -68,9 +68,9 @@ const [layout, setLayout] = useState(3)
                         <Popupads />
                     </div>
 
-                    <div className='arabic flex mt-5 mr-3'>
+                    <div className='arabic flex mr-3 mt-2'>
                         <img className='relative w-[0.8rem] ml-1 mr-3' src={starm} alt="starm" />
-                        <p className='text-sm font-bold text-[#444444] mr-2'>ميز إعلاناتك</p>
+                        <p className='text-xs font-bold text-[#444444] '>ميز إعلاناتك</p>
                     </div>
 
                     <div className='flex arabic'>
@@ -93,11 +93,10 @@ const [layout, setLayout] = useState(3)
                         setLayout(2);
                         window.scrollTo(0, 0);
                         }}
-                    className='flex justify-center mt-5 mb-5'>
+                    className='flex justify-center mt-3.5 mb-5'>
 
-                        <text className='py-1 px-10  text-sm font-bold bg-[#0092A0] rounded-full text-white text-center cursor-pointer
-                        shadow-[rgba(0,_0,_0,_0.18)_0px_2px_5px] border-[2px] border-[#0092A0]
-                        hover:shadow-lg hover:text-[#0092A0] hover:border-[#0092A0] hover:border-2 hover:bg-white  mr-1 mb-1 ease-linear transition-all duration-150"'>
+                        <text className='py-1 px-5 text-xs font-bold bg-[#0092A0] rounded-full text-white text-center cursor-pointer
+                        shadow-[rgba(0,_0,_0,_0.18)_0px_2px_5px] border-[2px] border-[#0092A0]'>
                         الباقات و الأسعار</text>
                     </div>
                 </div>

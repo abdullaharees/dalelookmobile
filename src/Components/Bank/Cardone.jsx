@@ -26,10 +26,10 @@ const [layout, setLayout] = useState(1)
         
         <div className='flex justify-center flex-col'>
 
-          <div className='h-[45px] mt-[2rem] justify-center rounded-t-sm '>
+          <div className='h-[45px] mt-[1rem] justify-center rounded-t-sm '>
             <div className='flex w-full justify-center'>
               <div className='flex arabic justify-center'>
-                <p className='text-xs font-bold text-right mb-2 text-[#494949]'>قم باختيار طريقة الدفع المناسبة لك </p>
+                <p className='text-sm font-bold text-right mb-2 text-[#494949]'>قم باختيار طريقة الدفع المناسبة لك </p>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ const [layout, setLayout] = useState(1)
                   e.preventDefault();
                   setLayout(1);
                   }}
-                  className={`cursor-pointer w-[70%] h-[37px] mt-3 rounded-md flex justify-center arabic ${(layout === 1)? 'bg-[#0092A0] text-white ' : 'bg-[#F7F7F8] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'}`}>
+                  className={`cursor-pointer w-[55%] h-[37px] mt-3 rounded-md flex justify-center arabic ${(layout === 1)? 'bg-[#0092A0] text-white ' : 'bg-[#F7F7F8] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'}`}>
                   <p className={`text-right font-bold mb-2 text-[12.5px] mt-2 ${(layout === 1)? 'text-white' : 'text-black'}`}> 
                     بطاقة إئتمانية </p>
                     {
@@ -63,7 +63,7 @@ const [layout, setLayout] = useState(1)
                   e.preventDefault();
                   setLayout(2);
                   }}
-                className={`cursor-pointer w-[70%] h-[37px] mt-3 rounded-md flex justify-center arabic ${(layout === 2)? 'bg-[#0092A0] text-white ' : 'bg-[#F7F7F8] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'}`}> 
+                className={`cursor-pointer w-[55%] h-[37px] mt-3 rounded-md flex justify-center arabic ${(layout === 2)? 'bg-[#0092A0] text-white ' : 'bg-[#F7F7F8] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'}`}> 
                   <p className={`text-right font mb-2 font-bold text-[12.5px] mt-2 ${(layout === 2)? 'text-white' : 'text-black'}`}> 
                     بطاقة باي بال </p>
                     {
