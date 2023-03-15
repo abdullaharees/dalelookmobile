@@ -16,6 +16,7 @@ import Homepackages from './Components/Bank/Homepackages'
 import Cardpage from './Components/Bank/Cardpage'
 import Homeproceed from './Components/Bank/Homeproceed'
 import Homeproduct from './Components/Realestate/Homeproduct'
+import Homeprofilem from './Components/Profile/Homeprofilem'
 
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
             <Route path='/cardpage' element={<Cardpage />} />
             <Route path='/proceed' element={<Homeproceed />} />
             <Route path='/product' element={<Homeproduct />} />
+            <Route path='/profile' element={<Homeprofilem />} />
+
 
 
 

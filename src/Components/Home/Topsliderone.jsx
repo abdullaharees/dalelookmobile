@@ -12,7 +12,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 export default function Topsliderone() {
   return (
-    <div className='flex justify-center w-full object-cover h-[12rem] slider1 swiper-container'>
+    <div className='flex justify-center w-full object-cover h-[11rem] slider1 swiper-container'>
       <Swiper
         pagination={{
               clickable: true
