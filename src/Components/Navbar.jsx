@@ -174,7 +174,7 @@ const [nav, setNav] = useState(false)
 
                         <nav className=' arabic'> 
                             <ul className=' flex flex-col pt-[1rem] text-gray-800'>      
-                                <Link to="/packages" onClick={() => setNav(!nav)} >
+                                <Link to="/" onClick={() => setNav(!nav)} >
                                     <li className='text-xl mt-4 flex mr-5'>
                                         <BsFillHouseDoorFill className='arabic mt-1 mr-2 ml-3 text-[1.2rem] text-[#0092A0]'/>
                                         <p className='text-[#0092A0] ml-2 text-[0.9rem]'>الرئيسية</p> 
@@ -183,7 +183,7 @@ const [nav, setNav] = useState(false)
 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
                                 
-                                <Link to='/profile' onClick={() => setNav(!nav)} >
+                                <Link to='/category' onClick={() => setNav(!nav)} >
                                     <li className='py-1 flex mr-5 text-[#0092A0]'>
                                         <img className='w-[1.1rem]  mr-2 ml-3' src={path} alt="user" />
                                         <p className='text-[#0092A0] ml-2  text-[0.9rem]'>ابحث عن إعلان</p> 
@@ -192,7 +192,7 @@ const [nav, setNav] = useState(false)
                                 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
-                                <Link to='/profile' onClick={() => setNav(!nav)} >
+                                <Link to='/' onClick={() => setNav(!nav)} >
                                     <li className='py-1 flex mr-5 text-[#0092A0]'>
                                         <img className='w-[1rem]  mr-2 ml-3' src={gridham} alt="gridham" />
                                         <p className='text-[#0092A0] ml-2  text-[0.9rem]'>إعلاناتي</p> 
@@ -210,7 +210,7 @@ const [nav, setNav] = useState(false)
 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
                                 
-                                <Link to='/profile' onClick={() => setNav(!nav)} >
+                                <Link to='/' onClick={() => setNav(!nav)} >
                                     <li className='py-1 flex mr-5 text-[#0092A0]'>
                                         <img className='w-[1rem]  mr-2 ml-3' src={heartham} alt="heartham" />
                                         <p className='text-[#0092A0] ml-2  text-[0.9rem]'>المفضلة</p> 
@@ -235,7 +235,7 @@ const [nav, setNav] = useState(false)
 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
-                                <Link to="/proceed" onClick={() => setNav(!nav)} >
+                                <Link to="/" onClick={() => setNav(!nav)} >
                                     <li className='py-1 mt-[0.1rem] flex mr-5 text-[#0092A0]'>
                                         <img className="w-[15px] mr-2 ml-3" src={converham} alt="converham" />
                                         <p className='text-[#0092A0] ml-2  text-[0.9rem]'>المحادثات</p> 
@@ -252,7 +252,7 @@ const [nav, setNav] = useState(false)
                                 </Link>
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
-                                <Link to="/packages" onClick={() => setNav(!nav)} >
+                                <Link to="/login" onClick={() => setNav(!nav)} >
                                     <li className='py-1  flex mr-5 '>
                                         <img className="w-[1.1rem] mr-2 ml-3" src={checkham} alt="checkham" />
                                         <p className='text-[#0092A0] ml-2  text-[0.9rem]'>عمليات البحث</p> 

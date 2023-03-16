@@ -11,9 +11,9 @@ const Categorypage = () => {
   return (
     <div>
         <Navbar />
-        <Catbar />
+        <Catbar className='z-50' />
         <Searchbar />
-        <Topsliderone />
+        <Topsliderone className='-z-10' />
         <Catclicklastdivtwo />
     </div>
   )

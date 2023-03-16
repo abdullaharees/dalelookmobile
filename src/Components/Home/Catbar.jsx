@@ -1,41 +1,44 @@
-import React from 'react'
+import {React, useState} from 'react'
 
 import funnel from "../pictures/funnel.svg"
 import check from "../pictures/check.svg"
 import gridm from "../pictures/gridm.svg"
 import sortm from "../pictures/sortm.svg"
+import Gridrop from './Gridrop'
+import Sort from './Sort'
+import Filterswipe from './Filterswipe'
 
+
+import {MdKeyboardArrowLeft} from 'react-icons/md'
+import Filterswipetwo from './Filterswipetwo'
+import Filterswipethree from './Filterswipethree'
+import Filterswipefour from './Filterswipefour'
 
 
 const Catbar = () => {
+const [nav, setNav] = useState(false)
+
   return (
-    <div className='bg-[#0092A0] h-[3.1rem]'>
-        <div className='flex justify-center'>
-              <div className='flex flex-col justify-center items-center mt-2 mr-[2rem]'>
-                <img className='w-[1.1rem] py-1' src={funnel} alt="Company Logo" />
-                <p className='text-[white] text-[0.6rem] '>فلترة</p> 
-              </div>
-        
+    <div className='bg-[#0092A0] h-[3.1rem] z-20'>
+        <div className='flex '>
+
+
+              <Filterswipefour />
+
               <div className='border-r-[2px] border-white mt-1'></div>
 
-              <div className='flex flex-col justify-center items-center mt-2 ml-[1rem] mr-[1.25rem]'>
+              <div className='flex flex-col justify-center items-center mt-2 ml-[1.5rem] mr-[1.5rem]'>
                 <img className='w-[1.1rem] py-1' src={check} alt="Company Logo" />
                 <p className='text-[white] ml-1 text-[0.6rem]'>حفظ البحث</p> 
               </div>
         
               <div className='border-r-[2px] border-white mt-1'></div>
 
-              <div className='flex flex-col justify-center items-center mt-2 mr-3 ml-2'>
-                <img className='w-[1.1rem] py-1' src={gridm} alt="Company Logo" />
-                <p className='text-[white] ml-2 mt-[0.15rem] text-[0.6rem]'>عرض الإعلانات</p> 
-              </div>
+              <Gridrop className='z-20 ' />
 
               <div className='border-r-[2px] border-white mt-1'></div>
 
-              <div className='flex flex-col justify-center items-center mt-2 ml-7 mr-5'>
-                <img className='w-[1.1rem] py-1' src={sortm} alt="Company Logo" />
-                <p className='text-[white] ml-1 text-[0.6rem]'>فرز</p> 
-              </div>
+              <Sort />
         
         </div>
     </div>

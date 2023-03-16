@@ -19,7 +19,7 @@ export default function Notifdrop() {
                 <Menu.Button className="inline-flex justify-center w-full md:px-1 md:py-1 text-sm font-medium text-[#0092A0] rounded-md">
                     <img className='relative w-[1.2rem] mr-2 hover:shadow-xl ease-linear transition-all duration-150 ' src={notificationbl} alt="notification " />
                     <div className="absolute bg-red-600 rounded-full p-[0.4rem] ml-[0.2rem] -top-0.5 text-white text-[0.45rem]"></div>
-                    <div className="absolute rounded-full p-[0.4rem] ml-[0.2rem] -top-[0.8rem] text-white text-[0.45rem]">22</div>      
+                    <p className="absolute rounded-full p-[0.4rem] ml-[0.2rem] -top-[0.7rem] text-white text-[0.45rem]">22</p>      
 
 
                 </Menu.Button>

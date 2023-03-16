@@ -17,6 +17,8 @@ import Cardpage from './Components/Bank/Cardpage'
 import Homeproceed from './Components/Bank/Homeproceed'
 import Homeproduct from './Components/Realestate/Homeproduct'
 import Homeprofilem from './Components/Profile/Homeprofilem'
+import Signup from './Components/Login/Signup'
+import Login from './Components/Login/Login'
 
 
 function App() {
@@ -34,8 +36,8 @@ function App() {
             <Route path='/product' element={<Homeproduct />} />
             <Route path='/profile' element={<Homeprofilem />} />
 
-
-
+            <Route path='/signup' element={<Signup />} />
+            <Route path='/login' element={<Login />} />
 
         </Routes>
       </Router>
