@@ -20,8 +20,8 @@ const Profilesharediv = () => {
         </div>
 
         <div className='text-sm flex justify-end '>
-          <p className='font-bold mr-[3rem] mt-3'>اسم</p>
-          <img className='w-[2rem]  mr-1 cursor-pointer fill-black' src={testimgest} alt="testimgest" />
+          <p className='font-bold mr-[0.7rem] mt-3'>اسم المعلن</p>
+          <img className='w-[2.5rem]  mr-2.5 cursor-pointer fill-black' src={testimgest} alt="testimgest" />
         </div> 
       </div>
   )

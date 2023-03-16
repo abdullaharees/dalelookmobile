@@ -23,7 +23,7 @@ const [nav, setNav] = useState(false)
         <div className='flex '>
 
 
-              <Filterswipefour />
+              <Filterswipe />
 
               <div className='border-r-[2px] border-white mt-1'></div>
 

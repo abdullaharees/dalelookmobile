@@ -54,7 +54,7 @@ const [nav, setNav] = useState(false)
                 <Link to="/packages">
                     <div className="flex items-center justify-center 
                         rounded cursor-pointer text-[#0092A0]
-                        px-2 py-2.5">
+                        px-2 mt-[0.2rem]">
                         <img className="w-[1.3rem] mr-1 ml-1" src={pricebl} alt="price" />
                     </div>    
                 </Link>
@@ -63,7 +63,7 @@ const [nav, setNav] = useState(false)
                         <Notifdrop />
                     </div>
 
-                    <div onClick={() => setNav(!nav)} className='cursor-pointer mr-5'>
+                    <div onClick={() => setNav(!nav)} className='mt-[0.2rem] cursor-pointer mr-5'>
                         <AiOutlineMenu className='text-[#333333] ' size={23}/>
                     </div>
 
