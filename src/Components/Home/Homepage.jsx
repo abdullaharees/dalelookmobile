@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer'
 import Navbar from '../Navbar'
 import Boxcomp from './Boxcomp'
 import Clicklastdiv from './Clicklastdiv'
@@ -14,7 +15,8 @@ const Homepage = () => {
         <Boxcomp />
         <Slidermiddiv />
         <Clicklastdiv />
-    
+
+      <Footer />
     </div>
     
     
