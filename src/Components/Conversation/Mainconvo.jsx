@@ -7,7 +7,7 @@ const Mainconvo = () => {
   return (
     <div className='bg-[#EBF1FF] h-full w-full'>
       <Backconvo />
-      <div className='mt-[34rem] mb-5 flex'>
+      <div className='mt-[34rem] mb-5 flex justify-center'>
         <div className='mb-2'>
           <AiOutlineSend className='text-white font-bold text-[2rem] rounded-sm mb-2 ml-2 px-2 py-2 bg-[#0092A0]'/>
         </div>

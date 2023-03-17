@@ -20,7 +20,7 @@ function Addpicm() {
       <div className="flex items-center mb-4">
         <div className="absolute top-[3.5rem] right-[9rem] w-[6.5rem] h-[6.5rem] bg-gray-200 rounded-full"></div>
         <button className="">
-            <img className="absolute top-[8.2rem] right-[9.2rem] w-[1.2rem]" src={plusprofm} alt="plusprofm" />   
+            <img className="absolute top-[8.2rem] right-[9.1rem] w-[1.2rem]" src={plusprofm} alt="plusprofm" />   
         </button>
         <input
           type="file"
