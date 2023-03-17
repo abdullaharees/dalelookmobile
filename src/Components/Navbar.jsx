@@ -235,7 +235,7 @@ const [nav, setNav] = useState(false)
 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
-                                <Link to="/" onClick={() => setNav(!nav)} >
+                                <Link to="/convo" onClick={() => setNav(!nav)} >
                                     <li className='py-1 mt-[0.1rem] flex mr-5 text-[#0092A0]'>
                                         <img className="w-[15px] mr-2 ml-3" src={converham} alt="converham" />
                                         <p className='text-[#0092A0] ml-2  text-[0.9rem]'>المحادثات</p> 

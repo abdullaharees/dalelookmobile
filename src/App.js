@@ -19,6 +19,8 @@ import Homeproduct from './Components/Realestate/Homeproduct'
 import Homeprofilem from './Components/Profile/Homeprofilem'
 import Signup from './Components/Login/Signup'
 import Login from './Components/Login/Login'
+import Convo from './Components/Conversation/Convo'
+import Mainconvo from './Components/Conversation/Mainconvo'
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
             <Route path='/proceed' element={<Homeproceed />} />
             <Route path='/product' element={<Homeproduct />} />
             <Route path='/profile' element={<Homeprofilem />} />
+            <Route path='/convo' element={<Convo />} />
+            <Route path='/mainconvo' element={<Mainconvo />} />
 
             <Route path='/signup' element={<Signup />} />
             <Route path='/login' element={<Login />} />
