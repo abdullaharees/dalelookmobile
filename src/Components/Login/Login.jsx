@@ -38,7 +38,7 @@ const Login = () => {
                             <img className='w-[30px] mr-8 mt-1' src={usermail} alt="usermail" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-full focus:outline-none " placeholder=' البريد الإلكتروني*'/>
+                        text-[10px] w-full focus:outline-none " placeholder='البريد الإلكتروني أو رقم الجوال*'/>
 
                         <span class="z-10 left-10 h-full leading-snug absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[30px] mt-1' src={eyeone} alt="eyeone" /> 

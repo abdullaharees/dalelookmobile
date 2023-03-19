@@ -17,15 +17,11 @@ const [like, setLike] = useState([]);
 
             <div className='flex justify-center flex-nowrap mt-1'>
                 <div className='flex justify-center flex-wrap xl:flex-nowrap py-1 px-[0.15rem]'>
-                    <Link to='/product'>
                         <Component />
-                    </Link>
                 </div>
 
                 <div className=' flex justify-center flex-wrap xl:flex-nowrap py-1 px-[0.15rem]'>
-                    <Link to='/product'>
                         <Component />
-                    </Link>
                 </div>
             </div>
 

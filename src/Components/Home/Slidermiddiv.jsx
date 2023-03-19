@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 
 import car from "../pictures/carslider.svg"
 import cam from "../pictures/cam.svg"
@@ -23,6 +23,9 @@ import Component from './Component'
 
 
 const Slidermiddiv = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   const [like, setLike] = useState([]);
   const [swiper, setSwiper] = useState(null);
   const [target, setTarget] = useState(0);

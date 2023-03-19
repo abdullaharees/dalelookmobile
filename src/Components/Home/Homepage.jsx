@@ -16,7 +16,7 @@ const Homepage = () => {
         <Slidermiddiv />
         <Clicklastdiv />
 
-        <Footer style={{position: "fixed", bottom: 0, left: 0, right: 0}} />
+        <Footer />
     </div>
     
     

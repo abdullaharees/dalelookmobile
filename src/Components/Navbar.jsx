@@ -32,6 +32,7 @@ import ppm from "./pictures/ppm.svg"
 
 import Notifdrop from './Home/Notifdrop';
 import Languagedrop from './Home/Languagedrop'
+import Modes from './Home/Modes'
 
 const Navbar = () => {
 const [nav, setNav] = useState(false)
@@ -67,7 +68,9 @@ const [nav, setNav] = useState(false)
                         <AiOutlineMenu className='text-[#333333] ' size={23}/>
                     </div>
 
-                    {nav ? <div className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0'></div> : ''}
+                    {nav ? <div 
+                    onClick={() => setNav(!nav)} 
+                    className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0'></div> : ''}
                     
                     {/* <div className={nav ? 'fixed top-0 right-0 w-[15rem] h-screen bg-white z-30 duration-300' : 'fixed top-0 right-[-100%] w-[300px] h-screen bg-white z-10 duration-300'}>
                                 <img className="relative w-full" src={menutop} alt="price" />
@@ -163,9 +166,7 @@ const [nav, setNav] = useState(false)
                                 size={20} className='absolute right-4 top-3 cursor-pointer text-white'/>
                                 <img className="absolute top-[3.5rem] right-[3rem] w-[9rem]" src={logowhite} alt="price" /> */}
                                 <img className="relative w-full" src={menutop} alt="price" />
-                                <AiOutlineClose
-                                onClick={() => setNav(!nav)} 
-                                size={20} className='absolute right-4 top-3 cursor-pointer text-white'/>
+                                
                                 <img className="absolute top-[1rem] right-[5rem] w-[5rem]" src={ppm} alt="ppm" />
                                 <div className='absolute right-[4rem] top-[6.5rem] flex'>
                                     <RxExit className='text-white mt-0.5 mr-1' size={10}/>
@@ -252,7 +253,7 @@ const [nav, setNav] = useState(false)
                                 </Link>
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
-                                <Link to="/login" onClick={() => setNav(!nav)} >
+                                <Link to="/signup" onClick={() => setNav(!nav)} >
                                     <li className='py-1  flex mr-5 '>
                                         <img className="w-[1.1rem] mr-2 ml-3" src={checkham} alt="checkham" />
                                         <p className='text-[#0092A0] ml-2  text-[0.9rem]'>عمليات البحث</p> 
@@ -265,9 +266,10 @@ const [nav, setNav] = useState(false)
 
                         <div className='flex text-[#4E4E4E] flex-col arabic mr-6 space-y-3 mt-[2rem]'>
                             <div className='flex'>
-                                <p>وضعية الظلام</p>
+                                {/* <p>وضعية الظلام</p>
                                 <img className="w-[1.9rem] mr-10 ml-3" src={darkmodem} alt="darkmodem" />
-                                <img className="w-[1.9rem] mr-1 ml-3" src={lightmodem} alt="lightmodem" /> 
+                                <img className="w-[1.9rem] mr-1 ml-3" src={lightmodem} alt="lightmodem" />  */}
+                                <Modes className="w-[1.9rem] mr-1 ml-3"/>
                             </div>    
                             <p>تواصل معنا</p>
                             <p>عن منصة دليلك</p>

@@ -9,7 +9,7 @@ import Itemprof from './Itemprof'
 import Favprof from './Favprof'
 import Myadsm from './Myadsm'
 
-const Itemchange = () => {
+const Itemchange = ({edit, setEdit}) => {
   const [layout, setLayout] = useState(1)
   return (
     <div className='flex justify-center'>
@@ -49,7 +49,7 @@ const Itemchange = () => {
       </div>
 
       { layout === 1 ? (<>
-        <Itemprof className='w-full' />
+        <Itemprof edit={edit} setEdit={setEdit} className='w-full' />
       </>) :
 
         layout === 2 ? (<>

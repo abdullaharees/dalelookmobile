@@ -4,13 +4,13 @@ import imgpath from "../pictures/imgpath.svg"
 import timew from "../pictures/timew.svg"
 
 
-const Productprice = () => {
+const Productprice = ({target, setTarget}) => {
   return (
     <div className='bg-[#0092A0] h-[3.8rem] '>
         <div className='flex justify-between'>
             <div className='flex mt-[0.3rem]'>
                 <img className='w-[0.7rem]  ml-3' src={imgpath} alt="imgpath" />
-                <p className='text-white ml-1 text-[0.7rem] mt-1'>1-8</p>
+                <p className='text-white ml-1 text-[0.7rem] mt-1'>{target+1}</p>
             </div>
             <div className='flex mt-[0.3rem]'>
                 <p className='text-[1rem] text-[white] arabic mr-2 font-bold'>188,000 <span className='text-[0.8rem]'>د.إ</span></p>

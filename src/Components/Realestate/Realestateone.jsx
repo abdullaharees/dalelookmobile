@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useState, useEffect } from "react";
 import flag from "../pictures/flag.svg"
 import sharem from "../pictures/sharem.svg"
 import phonem from "../pictures/phonem.svg"
@@ -14,12 +14,14 @@ import Backprod from "./Backprod"
 
 
 const Realestateone = () => {
+  const [target, setTarget] = useState(0);
+
   return (
     <div>
         <Backprod />
-        <Estateslider />
+        <Estateslider target={target} setTarget={setTarget}  />
         <Profilesharediv />
-        <Productprice />
+        <Productprice target={target} setTarget={setTarget} />
         <div className='arabic justify-center items-center'>
           <p className='text-[#0092A0] text-center font-bold mt-2'> تفاصيل</p>
           <div className='flex flex-col justify-center items-center'>

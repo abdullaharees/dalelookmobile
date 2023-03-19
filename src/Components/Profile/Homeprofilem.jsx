@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Backprof from './Backprof'
 import Itemchange from './Itemchange'
 import Taskbarprof from './Taskbarprof'
 import Itemprof from './Itemprof'
 
 const Homeprofilem = () => {
+  const [edit, setEdit] = useState(false)
 
   return (
     <div>
-      <Backprof />
+      <Backprof edit={edit} setEdit={setEdit}/>
       <Taskbarprof />
-      <Itemchange />
+      <Itemchange edit={edit} setEdit={setEdit}/>
     </div>
   )
 }

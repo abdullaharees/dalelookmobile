@@ -21,7 +21,7 @@ const [nav, setNav] = useState(false)
 
               {nav ? <div className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0'></div> : ''}
 
-              <div className={nav ? 'fixed top-0 right-0 w-[15rem] h-screen bg-white z-30 duration-300' : 'fixed top-0 right-[-100%] w-[350px] h-screen bg-white z-10 duration-300'}>
+              <div className={nav ? 'fixed top-0 right-0 w-[19rem] h-screen bg-white z-30 duration-300' : 'fixed top-0 right-[-100%] w-[350px] h-screen bg-white z-10 duration-300'}>
 
               <div className='arabic'>
                 <div className='mt-10 mr-5 text-sm'>
@@ -138,7 +138,7 @@ const [nav, setNav] = useState(false)
                 
               </div>
 
-                <div onClick={() => setNav(!nav)}  className='flex justify-center mt-[10rem]'>
+                <div onClick={() => setNav(!nav)}  className='bottom-0 flex justify-center mt-[10rem]'>
                     <text className='py-2 px-6 text-xs font-bold shadow-lg bg-[#0092A0] rounded-full text-white text-center cursor-pointer'>موافق
                     </text>
                 </div>

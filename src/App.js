@@ -21,12 +21,13 @@ import Signup from './Components/Login/Signup'
 import Login from './Components/Login/Login'
 import Convo from './Components/Conversation/Convo'
 import Mainconvo from './Components/Conversation/Mainconvo'
-
+import ScrollToTop from './ScrollToTop'
 
 function App() {
   return (
     <div className="tajawal">
       <Router>
+        <ScrollToTop />
         <Routes>
 
           <Route path="/" element={<Homepage />} />           

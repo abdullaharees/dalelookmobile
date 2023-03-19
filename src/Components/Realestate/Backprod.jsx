@@ -12,7 +12,10 @@ const Backprod = () => {
               <Link to='/'>
                 <AiOutlineArrowLeft className='text-white font-bold text-[1.3rem] mt-2.5 ml-2'/>
               </Link>
-              <p className='text-white text-sm mt-2.5 ml-2 font-bold'>عقارات > عقارات للبيع > شقق</p>
+              <div className='arabic'>
+                <p className='text-white text-sm mt-3 ml-2'>عقارات > عقارات للبيع > شقق</p>
+
+              </div>
             </div>
         </div>
     </div>

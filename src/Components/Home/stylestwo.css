@@ -24,7 +24,7 @@
   
   .slider1 .swiper-button-prev,
   .slider1  .swiper-button-next {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    drop-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     width: 1rem;
     height: 3rem;
   }
@@ -34,5 +34,6 @@
   .slider1  .swiper-button-next::after {
     font-size: 1.2rem;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: azure;
   }
 
