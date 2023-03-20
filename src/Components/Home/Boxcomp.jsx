@@ -22,7 +22,7 @@ const Boxcomp = () => {
   return (
     <div>
 
-        <div className='flex items-center justify-center px-2 w-full text-lg text-[#0092A0] mb-3  arabic'>
+        <div className='flex items-center justify-center w-full text-lg text-[#0092A0] mb-3  arabic'>
             <p>التصفح عن طريق </p>
             <p className='font-bold mr-2'>الفئة</p>
         </div>
@@ -32,10 +32,7 @@ const Boxcomp = () => {
         <div className='flex justify-center flex-wrap xl:flex-nowrap'>
             <div className='flex justify-center space-x-4'>   
                 <Link to='/category'>
-                    <div onClick={(e) => {
-                e.preventDefault();
-                window.scrollTo(0, 0);
-                }} className='py-3 '>
+                    <div className='py-3 '>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
                         bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
                             <FaCarAlt className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2

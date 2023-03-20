@@ -7,6 +7,7 @@ import Logo from "../pictures/mainlogonav.svg";
 import eyetwo from "../pictures/eyetwo.svg"
 import eyeone from "../pictures/eyeone.svg"
 
+import { Link, useNavigate } from 'react-router-dom'
 
 import {AiOutlineGooglePlus} from 'react-icons/ai'
 import {BsApple} from 'react-icons/bs'
@@ -20,8 +21,9 @@ const Login = () => {
                 <div className='flex flex-col justify-center items-center'>
                     
                     <Languagedroplogin className='mt-[15rem]'/>
-
-                    <img className='w-[15rem] mt-[4.5rem] py-1' src={Logo} alt="Company Logo" />
+                    <Link to='/'>
+                        <img className='w-[15rem] mt-[4.5rem] py-1' src={Logo} alt="Company Logo" />
+                    </Link>
                     <p className='mt-3  text-[#7F7F7F] text-md font-bold text-center w-[20rem]'>المنصة الأولى في سوريا للإعلانات الإلكترونية المبوبة و دليل الشركات و المؤسسات و المحلات في كافة المدن السورية  </p>
                 </div>
 

@@ -9,6 +9,7 @@ import userpassone from "../pictures/userpassone.svg"
 import userpasstwo from "../pictures/userpasstwo.svg"
 import Logo from "../pictures/mainlogonav.svg";
 
+import { Link, useNavigate } from 'react-router-dom'
 
 import {AiOutlineGooglePlus} from 'react-icons/ai'
 import {AiFillApple} from 'react-icons/ai'
@@ -19,7 +20,9 @@ const Signup = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
                 <div className='flex flex-col justify-center items-center'>
-                    <img className='w-[15rem] mt-[4.5rem] py-1' src={Logo} alt="Company Logo" />
+                    <Link to='/'>
+                        <img className='w-[15rem] mt-[4.5rem] py-1' src={Logo} alt="Company Logo" />
+                    </Link>
                     <p className='mt-3  text-[#0092A0] text-lg font-bold'>أنشئ حسابك معنا</p>
                 </div>
 
@@ -28,20 +31,20 @@ const Signup = () => {
 
                     <div className='bg-[#3F5C98] px-10 py-[0.4rem] flex rounded-md'>
                         <GrFacebookOption className='text-white cursor-pointer mr-1' size={20}/>
-                        <p className='font-bold text-sm text-white'>Facebook</p>
-                        <p className='font-bold text-sm text-white ml-2'>اشترك بواسطة</p>
+                        <p className='font-bold text-sm text-white mt-0.5'>Facebook</p>
+                        <p className='font-bold text-sm text-white ml-2 mt-0.5'>اشترك بواسطة</p>
                     </div>
 
                     <div className='bg-[#D9534F] px-10 py-[0.4rem] flex rounded-md'>
                         <AiOutlineGooglePlus className='text-white cursor-pointer mr-1' size={22}/>
-                        <p className='font-bold text-sm text-white'>Google</p>
-                        <p className='font-bold text-sm text-white ml-2'>اشترك بواسطة</p>
+                        <p className='font-bold text-sm text-white mt-0.5'>Google</p>
+                        <p className='font-bold text-sm text-white ml-2 mt-0.5'>اشترك بواسطة</p>
                     </div>
 
                     <div className='bg-black px-10 py-[0.4rem] flex rounded-md'>
                         <AiFillApple className='text-white cursor-pointer mr-1' size={22}/>
-                        <p className='font-bold text-sm text-white'>Apple</p>
-                        <p className='font-bold text-sm text-white ml-2'>اشترك بواسطة</p>
+                        <p className='font-bold text-sm text-white mt-0.5'>Apple</p>
+                        <p className='font-bold text-sm text-white ml-2 mt-0.5'>اشترك بواسطة</p>
                     </div>        
 
                 </div>
@@ -112,8 +115,9 @@ const Signup = () => {
                 </div>
                 
                 <img className='-z-10 absolute top-[31rem] w-[25rem]' src={bglogin} alt="bglogin" /> 
-
-                <p className='text-xs mt-12 underline'>العودة إلى الرئيسية</p>
+                <Link to='/'>
+                    <p className='text-xs mt-12 underline'>العودة إلى الرئيسية</p>
+                </Link>
 
     </div>
   )

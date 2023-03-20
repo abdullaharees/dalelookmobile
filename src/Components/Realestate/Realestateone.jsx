@@ -60,32 +60,35 @@ const Realestateone = () => {
                 <p className='text-[0.9rem] text-left font mb-2 ml-2 mt-1 text-[#5B5A5A]'>القيمة</p>
               </div>
           </div>
+
           <p className='text-[#0092A0] text-center font-bold mt-4'> الشرح</p>
+          
           <div className='flex flex-col w-full justify-center items-center arabic'>
-            <textarea className='text-[0.6rem]  mt-2 w-[95%] overflow-y-scroll resize-none outline-none pt-2 h-[11rem] px-3 text-xs  flex flex-col justify-end text-right border-[1px] border-[#9F9F9F] rounded-md bg-white'
+            <div className='read-only text-[0.6rem]  mt-2 w-[95%] overflow-y-scroll resize-none outline-none pt-2 h-[11rem] px-3 text-xs  flex flex-col justify-end text-right border-[1px] border-[#9F9F9F] rounded-md bg-white'
               type="text"
               rows="4"
               placeholder='القيمة القيمة القيمة القيمة القيمة القيمة القيمة القيمة'>
-            </ textarea>
+            </ div>
           </div> 
-          <div className='flex items-center justify-center mt-1 mb-5 arabic'>
-                  <button className=' bg-[#CA0000] w-[27%]  h-[25px] mt-8 ml-2 rounded-md flex justify-center items-center arabic cursor-pointer'>
+          
+          <div className='bg-white mt-1 h-5'></div>
+
+        </div>
+        <div className='flex items-center justify-center w-full mt-1 mb-5 arabic fixed bottom-0'>
+                  <button className=' bg-[#CA0000] w-[30%]  h-[27px] mt-8 ml-2 rounded-md flex justify-center items-center arabic cursor-pointer'>
                       <p className='text-[0.65rem]  text-right font mb-2 font-bold  mt-2 text-white'>محادثة</p>
                       <img className='w-3 mr-2  ml-1  fill-black' src={converwhitem} alt="converwhitem" />
                   </button>
                   
-                  <button className=' bg-[#2FB944] w-[27%]  h-[25px] mt-8 ml-2 rounded-md flex justify-center  items-center arabic'>
+                  <button className=' bg-[#2FB944] w-[30%]  h-[27px] mt-8 ml-2 rounded-md flex justify-center  items-center arabic'>
                       <p className='text-[0.65rem] text-right font mb-2 font-bold  mt-2 text-white'> واتس آب</p>
                       <img className='w-3.5 mr-2  fill-black' src={whatsappm} alt="whatsappem" />
                   </button>
 
-                  <button className=' bg-[#0092A0] w-[25%]  h-[25px]  mt-8  rounded-md flex justify-center items-center arabic '>
+                  <button className=' bg-[#0092A0] w-[30%]  h-[27px]  mt-8  rounded-md flex justify-center items-center arabic '>
                       <p className='text-[0.65rem]  text-right font mb-2 font-bold  mt-2 text-white'>إتصال</p>
                       <img className='w-3  mr-2  fill-black' src={phonem} alt="phonem" />
                   </button>
-          </div>
-          <div className='bg-white mt-1 h-5'></div>
-
         </div>
     </div>
   )

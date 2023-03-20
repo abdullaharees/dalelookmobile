@@ -15,7 +15,7 @@ const plusIconStyle = {
   position: 'absolute',
   top: '50%',
   left: '50%',
-  transform: 'translate(-50%, -50%)',
+  transform: 'translate(120%, -15%)',
   width: '1.2rem'
 };
 
@@ -30,7 +30,7 @@ const thumbsContainer = {
 const thumb = {
   display: 'inline-flex',
   position: 'relative', // Add position relative to parent
-  borderRadius: 2,
+  borderRadius: '50%',
   border: '1px solid #eaeaea',
   marginBottom: 8,
   marginRight: 8,
@@ -49,7 +49,8 @@ const thumbInner = {
 const img = {
   display: 'block',
   width: 'auto',
-  height: '100%'
+  height: '100%',
+  borderRadius: '50%',
 };
 
 const deleteButton = {
@@ -128,7 +129,7 @@ function Dragndropbtn(props) {
             {thumbs.length > 0 ? (
               <div style={thumb}>
                 <div style={thumbInner}>
-                  <img
+                  <img 
                     src={files[0].preview}
                     style={img}
                     onLoad={() => {
@@ -143,6 +144,7 @@ function Dragndropbtn(props) {
             ) : (
               <div style={grayDivStyle}>
                 <img
+                  className='absolute top-[5rem] right-[9rem] w-[6.5rem] h-[6.5rem]'
                   src={plusprofm}
                   alt="plusprofm"
                   style={plusIconStyle}

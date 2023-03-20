@@ -79,10 +79,10 @@ export default function Estateslider({target, setTarget})  {
           <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
         </SwiperSlide>
       </Swiper>
-      <div className='z-50 absolute top-3 left-2 border rounded-full p-[0.2rem] bg-white'>
+      <div className='z-50 absolute top-3 left-2 border rounded-full p-[0.3rem] bg-white'>
         <p onClick={() => like.includes(1) ? setLike(like.filter(item => item !== 1)) : setLike(prev => [...prev , 1])}>
-                            {like.includes(1) && <FaHeart style={{color: 'red'}} className='text-gray-300 cursor-pointer text-[0.7rem]'/>}
-                            {!like.includes(1) && <FaRegHeart className=' text-gray-300  cursor-pointer text-[0.7rem] ' />}
+                            {like.includes(1) && <FaHeart style={{color: 'red'}} className='text-gray-300 cursor-pointer text-[0.9rem]'/>}
+                            {!like.includes(1) && <FaRegHeart className=' text-gray-300  cursor-pointer text-[0.9rem] ' />}
                           </p>
       </div>
       <div className="flex justify-between h-[4rem] w-[100%] space-x-1 mt-0.5 overflow-scroll scrollbar-hide">

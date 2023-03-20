@@ -253,7 +253,7 @@ const [nav, setNav] = useState(false)
                                 </Link>
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
-                                <Link to="/signup" onClick={() => setNav(!nav)} >
+                                <Link to="/login" onClick={() => setNav(!nav)} >
                                     <li className='py-1  flex mr-5 '>
                                         <img className="w-[1.1rem] mr-2 ml-3" src={checkham} alt="checkham" />
                                         <p className='text-[#0092A0] ml-2  text-[0.9rem]'>عمليات البحث</p> 
@@ -265,11 +265,13 @@ const [nav, setNav] = useState(false)
                         </nav> 
 
                         <div className='flex text-[#4E4E4E] flex-col arabic mr-6 space-y-3 mt-[2rem]'>
-                            <div className='flex'>
+                            <div className='flex justify-between'>
                                 {/* <p>وضعية الظلام</p>
                                 <img className="w-[1.9rem] mr-10 ml-3" src={darkmodem} alt="darkmodem" />
                                 <img className="w-[1.9rem] mr-1 ml-3" src={lightmodem} alt="lightmodem" />  */}
-                                <Modes className="w-[1.9rem] mr-1 ml-3"/>
+                                <p>وضعية الظلام</p>
+                                <Modes className=""/>
+
                             </div>    
                             <p>تواصل معنا</p>
                             <p>عن منصة دليلك</p>
@@ -281,12 +283,14 @@ const [nav, setNav] = useState(false)
                             <p>البنود و الشروط</p>
                         </div>
 
-                        <div
-                        className='flex justify-center mt-8 ml-[4rem] py-[0.4rem] w-[8rem] bg-[#0092A0] rounded-full'>
-                            <RxExit className='text-white mr-1' size={15}/>
-                            <text className=' text-[0.7rem] font-bold  text-white text-center cursor-pointer'>
+                        <Link to='/'>
+                           <div className='flex justify-center mt-8 ml-[4rem] py-[0.4rem] w-[8rem] bg-[#0092A0] rounded-full'>
+                                <RxExit className='text-white mr-1' size={15}/>
+                                <text className=' text-[0.7rem] font-bold  text-white text-center cursor-pointer'>
                              تسجيل الدخول </text> 
-                        </div>
+                            </div>   
+                        </Link>
+                      
                         
                         <div className='flex justify-center mt-3'>
                             <div className='content-between border-b-[2px] w-full mt-2 mb-1'></div>

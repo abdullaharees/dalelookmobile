@@ -8,15 +8,15 @@ const Sliders = () => {
   return (
     <div className='flex flex-col w-full'>
 
-        <div className='w-full h-full'>
+        <div className='w-full'>
             <Topsliderone />
         </div>
 
         <div className='flex space-x-[0.1rem] mt-[0.1rem]'>
-            <div className='flex w-1/2 h-[10rem] '>
+            <div className='flex w-1/2 h-[9.2rem] '>
                 <Topslidertwo />
             </div>
-            <div className='flex w-1/2 h-[10rem]'>
+            <div className='flex w-1/2 h-[9.2rem]'>
                 <Topsliderthree />
             </div>
         </div>
