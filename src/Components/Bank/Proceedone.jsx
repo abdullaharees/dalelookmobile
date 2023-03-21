@@ -10,21 +10,19 @@ import cammob from "../pictures/cammob.svg"
 
 
 
-const Proceedone = () => {
-const [layout, setLayout] = useState(1)
+const Proceedone = ({layout, setLayout, target, setTarget}) => {
 
   return (
-<div className='flex justify-center'>
+<div className='flex justify-center '>
 
     <div className='flex flex-col w-full justify-center'>
 
         
 
-        { layout === 1 ? (<>
         
 
         
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center justify-center pb-[22rem]'>
 
                    
             
@@ -172,13 +170,6 @@ const [layout, setLayout] = useState(1)
 
 
        </div>
-       </>) :
-
-       layout === 2 ? (
-        <Proceedthree />
-        )
-        
-        :null}
 
     </div>   
 

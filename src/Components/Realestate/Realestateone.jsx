@@ -11,6 +11,7 @@ import Estateslider from "./Estateslider"
 import Profilesharediv from "./Profilesharediv"
 import Productprice from "./Productprice"
 import Backprod from "./Backprod"
+import Footer from "../Footer";
 
 
 const Realestateone = () => {
@@ -90,6 +91,7 @@ const Realestateone = () => {
                       <img className='w-3  mr-2  fill-black' src={phonem} alt="phonem" />
                   </button>
         </div>
+
     </div>
   )
 }

@@ -12,7 +12,7 @@ import Myadsm from './Myadsm'
 const Itemchange = ({edit, setEdit}) => {
   const [layout, setLayout] = useState(1)
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center pt-10'>
       <div className='flex justify-between absolute top-[12.5rem] bg-[#DADEE2] w-[8.5rem] h-[2.5rem] rounded-lg'>
         <div
         onClick={(e) => {

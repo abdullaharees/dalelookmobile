@@ -35,8 +35,8 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[9rem]'>القيمة</p>
+                  <div className='border-r-[2.5px] border-[#0092A0] h-[2.25rem] mr-[0.35rem]'></div>
+                  <p className='text-sm mt-2 ml-[13.5rem]'>القيمة</p>
                   <div className='flex ml-3'>
                     <input type="checkbox" id="css" className=' text-xs' name="value" value="CSS" />
                   </div>
@@ -47,8 +47,8 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[9rem]'>القيمة</p>
+                  <div className='border-r-[2.5px] border-[#0092A0] h-[2.25rem] mr-[0.35rem]'></div>
+                  <p className='text-sm mt-2 ml-[13.5rem]'>القيمة</p>
                   <div className='flex ml-3'>
                     <input type="checkbox" id="css" className=' text-xs' name="value" value="CSS" />
                   </div>
@@ -59,8 +59,8 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[9rem]'>القيمة</p>
+                  <div className='border-r-[2.5px] border-[#0092A0] h-[2.25rem] mr-[0.35rem]'></div>
+                  <p className='text-sm mt-2 ml-[13.5rem]'>القيمة</p>
                   <div className='flex ml-3'>
                     <input type="checkbox" id="css" className=' text-xs' name="value" value="CSS" />
                   </div>
@@ -71,8 +71,8 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[9rem]'>القيمة</p>
+                  <div className='border-r-[2.5px] border-[#0092A0] h-[2.25rem] mr-[0.35rem]'></div>
+                  <p className='text-sm mt-2 ml-[13.5rem]'>القيمة</p>
                   <div className='flex ml-3'>
                     <input type="checkbox" id="css" className=' text-xs' name="value" value="CSS" />
                   </div>
@@ -83,8 +83,8 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[9rem]'>القيمة</p>
+                  <div className='border-r-[2.5px] border-[#0092A0] h-[2.25rem] mr-[0.35rem]'></div>
+                  <p className='text-sm mt-2 ml-[13.5rem]'>القيمة</p>
                   <div className='flex ml-3'>
                     <input type="checkbox" id="css" className=' text-xs' name="value" value="CSS" />
                   </div>
@@ -96,7 +96,7 @@ const [nav, setNav] = useState(false)
                 
               </div>
 
-                <div onClick={() => setNav(!nav)}  className='flex justify-center left-[11.5rem]  fixed bottom-8'>
+                <div onClick={() => setNav(!nav)}  className='flex justify-center absolute bottom-24 self-center w-full'>
                     <text className='py-2 px-6 text-xs font-bold bg-[#0092A0] rounded-full text-white text-center cursor-pointer'>موافق
                     </text>
                 </div>

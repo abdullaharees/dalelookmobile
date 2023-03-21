@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import bglogin from "../pictures/bglogin.svg"
 import usermail from "../pictures/usermail.svg"
@@ -16,6 +16,7 @@ import Languagedroplogin from './Languagedroplogin';
 
 
 const Login = () => {
+    const [showPassword, setShowPassword] = useState(false)
   return (
     <div className='flex flex-col justify-center items-center'>
                 <div className='flex flex-col justify-center items-center'>
@@ -25,39 +26,36 @@ const Login = () => {
                         <img className='w-[15rem] mt-[4.5rem] py-1' src={Logo} alt="Company Logo" />
                     </Link>
                     <p className='mt-3  text-[#7F7F7F] text-md font-bold text-center w-[20rem]'>المنصة الأولى في سوريا للإعلانات الإلكترونية المبوبة و دليل الشركات و المؤسسات و المحلات في كافة المدن السورية  </p>
-                </div>
-
-
+                </div>            
                 
-                
-
-
                 <div className='flex flex-col justify-center items-center mt-5'>
 
                    
                     <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
-                        <span class="z-10 h-full absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
+                        <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[30px] mr-8 mt-1' src={usermail} alt="usermail" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
                         text-[10px] w-full focus:outline-none " placeholder='البريد الإلكتروني أو رقم الجوال*'/>
 
-                        <span class="z-10 left-10 h-full leading-snug absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
-                            <img className='w-[30px] mt-1' src={eyeone} alt="eyeone" /> 
-                        </span>
+                        
                     </div>
 
 
                     <div class=" w-[20rem] flex-wrap items-stretch mb-1 arabic">
-                        <span class="z-10 h-full absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
+                        <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[0.7rem]  mr-8' src={userpassone} alt="userpassone" /> 
                         </span>
-                        <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
+                        <input type={showPassword === true ? "text" : "password"} class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
                         text-[10px] w-full focus:outline-none " placeholder=' كلمة المرور*'/>
 
-                        <span class="z-10 left-10 h-full leading-snug absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
+                        {showPassword === false && <span onClick={e => setShowPassword(true)} class="z-10 left-10 leading-snug absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[30px] mt-1' src={eyetwo} alt="eyetwo" /> 
-                        </span>
+                        </span>}
+
+                        {showPassword === true && <span onClick={e => setShowPassword(false)} class="z-10 left-10 leading-snug absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
+                            <img className='w-[30px] mt-1' src={eyeone} alt="eyeone" /> 
+                        </span>}
                     </div>
 
                     <div className='ml-[13rem] flex arabic'>
@@ -92,7 +90,7 @@ const Login = () => {
 
                 
                 
-                <img className='-z-10 absolute top-[31rem] w-[25rem]' src={bglogin} alt="bglogin" /> 
+                <img className='-z-10 absolute top-[31rem] w-[25rem] opacity-50' src={bglogin} alt="bglogin" /> 
 
                 <p className='mt-[9rem] text-xs underline'>ليس لديك حساب بعد</p>
                 <div className='flex justify-center mt-1'>

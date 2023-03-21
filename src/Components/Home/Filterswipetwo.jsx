@@ -38,11 +38,11 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-4'>جميع إعلانات التصنيف</p>
+                  <div className='border-r-[3.5px] border-[#0092A0] h-[2.25rem] mr-[0.28rem]'></div>
+                  <p className='text-sm mt-1.5 ml-[5rem]'>جميع إعلانات التصنيف</p>
                   <div className='flex'>
-                    <p className='text-[0.65rem] mt-2'>12.358 إعلان</p>
-                    <MdKeyboardArrowLeft className='text-[#333333] mt-2' size={15}/>
+                    <p className='text-[0.65rem] mt-2.5'>12.358 إعلان</p>
+                    <MdKeyboardArrowLeft className='text-[#333333] mt-2.5' size={15}/>
                   </div>
                 </div>
 
@@ -51,11 +51,11 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[3.5rem]'>التصنيف الفرعي</p>
+                  <div className='border-r-[3.5px] border-[#0092A0] h-[2.25rem] mr-[0.28rem]'></div>
+                  <p className='text-sm mt-1.5 ml-[7.2rem]'>التصنيف الفرعي</p>
                   <div className='flex'>
-                    <p className='text-[0.65rem] mt-2'>12.358 إعلان</p>
-                    <MdKeyboardArrowLeft className='text-[#333333] mt-2' size={15}/>
+                    <p className='text-[0.65rem] mt-2.5'>12.358 إعلان</p>
+                    <MdKeyboardArrowLeft className='text-[#333333] mt-2.5' size={15}/>
                   </div>
                 </div>
 
@@ -64,11 +64,11 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[3.5rem]'>التصنيف الفرعي</p>
+                  <div className='border-r-[3.5px] border-[#0092A0] h-[2.25rem] mr-[0.28rem]'></div>
+                  <p className='text-sm mt-1.5 ml-[7.2rem]'>التصنيف الفرعي</p>
                   <div className='flex'>
-                    <p className='text-[0.65rem] mt-2'>12.358 إعلان</p>
-                    <MdKeyboardArrowLeft className='text-[#333333] mt-2' size={15}/>
+                    <p className='text-[0.65rem] mt-2.5'>12.358 إعلان</p>
+                    <MdKeyboardArrowLeft className='text-[#333333] mt-2.5' size={15}/>
                   </div>
                 </div>
 
@@ -77,11 +77,11 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[3.5rem]'>التصنيف الفرعي</p>
+                  <div className='border-r-[3.5px] border-[#0092A0] h-[2.25rem] mr-[0.28rem]'></div>
+                  <p className='text-sm mt-1.5 ml-[7.2rem]'>التصنيف الفرعي</p>
                   <div className='flex'>
-                    <p className='text-[0.65rem] mt-2'>12.358 إعلان</p>
-                    <MdKeyboardArrowLeft className='text-[#333333] mt-2' size={15}/>
+                    <p className='text-[0.65rem] mt-2.5'>12.358 إعلان</p>
+                    <MdKeyboardArrowLeft className='text-[#333333] mt-2.5' size={15}/>
                   </div>
                 </div>
 
@@ -90,11 +90,11 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[3.5rem]'>التصنيف الفرعي</p>
+                  <div className='border-r-[3.5px] border-[#0092A0] h-[2.25rem] mr-[0.28rem]'></div>
+                  <p className='text-sm mt-1.5 ml-[7.2rem]'>التصنيف الفرعي</p>
                   <div className='flex'>
-                    <p className='text-[0.65rem] mt-2'>12.358 إعلان</p>
-                    <MdKeyboardArrowLeft className='text-[#333333] mt-2' size={15}/>
+                    <p className='text-[0.65rem] mt-2.5'>12.358 إعلان</p>
+                    <MdKeyboardArrowLeft className='text-[#333333] mt-2.5' size={15}/>
                   </div>
                 </div>
 
@@ -103,11 +103,11 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[3.5rem]'>التصنيف الفرعي</p>
+                  <div className='border-r-[3.5px] border-[#0092A0] h-[2.25rem] mr-[0.28rem]'></div>
+                  <p className='text-sm mt-1.5 ml-[7.2rem]'>التصنيف الفرعي</p>
                   <div className='flex'>
-                    <p className='text-[0.65rem] mt-2'>12.358 إعلان</p>
-                    <MdKeyboardArrowLeft className='text-[#333333] mt-2' size={15}/>
+                    <p className='text-[0.65rem] mt-2.5'>12.358 إعلان</p>
+                    <MdKeyboardArrowLeft className='text-[#333333] mt-2.5' size={15}/>
                   </div>
                 </div>
 
@@ -116,11 +116,11 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[3.5rem]'>التصنيف الفرعي</p>
+                  <div className='border-r-[3.5px] border-[#0092A0] h-[2.25rem] mr-[0.28rem]'></div>
+                  <p className='text-sm mt-1.5 ml-[7.2rem]'>التصنيف الفرعي</p>
                   <div className='flex'>
-                    <p className='text-[0.65rem] mt-2'>12.358 إعلان</p>
-                    <MdKeyboardArrowLeft className='text-[#333333] mt-2' size={15}/>
+                    <p className='text-[0.65rem] mt-2.5'>12.358 إعلان</p>
+                    <MdKeyboardArrowLeft className='text-[#333333] mt-2.5' size={15}/>
                   </div>
                 </div>
 
@@ -129,11 +129,11 @@ const [nav, setNav] = useState(false)
                 </div>
 
                 <div className=' flex justify-between'>
-                  <div className='border-r-[2.5px] border-[#0092A0] h-[1.9rem] mr-[0.35rem]'></div>
-                  <p className='text-sm mt-1 ml-[3.5rem]'>التصنيف الفرعي</p>
+                  <div className='border-r-[3.5px] border-[#0092A0] h-[2.25rem] mr-[0.28rem]'></div>
+                  <p className='text-sm mt-1.5 ml-[7.2rem]'>التصنيف الفرعي</p>
                   <div className='flex'>
-                    <p className='text-[0.65rem] mt-2'>12.358 إعلان</p>
-                    <MdKeyboardArrowLeft className='text-[#333333] mt-2' size={15}/>
+                    <p className='text-[0.65rem] mt-2.5'>12.358 إعلان</p>
+                    <MdKeyboardArrowLeft className='text-[#333333] mt-2.5' size={15}/>
                   </div>
                 </div>
 
@@ -143,7 +143,7 @@ const [nav, setNav] = useState(false)
                 
               </div>
 
-                <div onClick={() => setNav(!nav)}  className='flex justify-center left-[11.5rem]  fixed bottom-8'>
+                <div onClick={() => setNav(!nav)}  className='flex justify-center absolute bottom-6 self-center w-full'>
                     <text className='py-2 px-6 text-xs font-bold bg-[#0092A0] rounded-full text-white text-center cursor-pointer'>موافق
                     </text>
                 </div>

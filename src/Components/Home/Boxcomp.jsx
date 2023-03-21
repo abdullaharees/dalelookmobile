@@ -34,7 +34,7 @@ const Boxcomp = () => {
                 <Link to='/category'>
                     <div className='py-3 '>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#a00000] py-[2.2rem] px-[2.2rem] mb-1">
                             <FaCarAlt className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -68,7 +68,7 @@ const Boxcomp = () => {
                 <Link to='/category'>
                     <div className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#1500a0] py-[2.2rem] px-[2.2rem] mb-1">
                             <SiHomeassistantcommunitystore className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -85,7 +85,7 @@ const Boxcomp = () => {
                 <Link to='/category'>
                     <div className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#00a020] py-[2.2rem] px-[2.2rem] mb-1">
                             <FaCouch className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -105,7 +105,7 @@ const Boxcomp = () => {
                     <div
                      className='py-3 '>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#95a000] py-[2.2rem] px-[2.2rem] mb-1">
                             <BsCameraFill className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -122,7 +122,7 @@ const Boxcomp = () => {
                 <Link to='/category'>
                     <div className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#0063a0] py-[2.2rem] px-[2.2rem] mb-1">
                             <MdComputer className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -139,7 +139,7 @@ const Boxcomp = () => {
                 <Link to='/category'>
                     <div className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#0ba000] py-[2.2rem] px-[2.2rem] mb-1">
                             <FaTools className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -156,7 +156,7 @@ const Boxcomp = () => {
                 <Link to='/category'>
                     <div className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#a00045] py-[2.2rem] px-[2.2rem] mb-1">
                             <GiWashingMachine className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -176,13 +176,10 @@ const Boxcomp = () => {
             <div className='flex justify-center space-x-4'>   
                 <Link to='/category'>
                     <div 
-                    onClick={(e) => {
-                        e.preventDefault();
-                        window.scrollTo(0, 0);
-                        }}
+                   
                         className='py-3 '>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#0ba000] py-[2.2rem] px-[2.2rem] mb-1">
                             <CgGym className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -198,10 +195,7 @@ const Boxcomp = () => {
                 
                 <Link to='/category'>
                     <div 
-                    onClick={(e) => {
-                        e.preventDefault();
-                        window.scrollTo(0, 0);
-                        }}
+                   
                         className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
                         bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
@@ -220,13 +214,10 @@ const Boxcomp = () => {
                 
                 <Link to='/category'>
                     <div 
-                    onClick={(e) => {
-                        e.preventDefault();
-                        window.scrollTo(0, 0);
-                        }}
+                   
                         className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#a00085] py-[2.2rem] px-[2.2rem] mb-1">
                             <BsLightbulbFill className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -242,13 +233,10 @@ const Boxcomp = () => {
                 
                 <Link to='/category'>
                     <div 
-                    onClick={(e) => {
-                        e.preventDefault();
-                        window.scrollTo(0, 0);
-                        }}
+                   
                         className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#a00000] py-[2.2rem] px-[2.2rem] mb-1">
                             <BsSpeakerFill className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -266,10 +254,7 @@ const Boxcomp = () => {
             <div className='flex justify-center space-x-4'>   
                 <Link to='/category'>
                     <div 
-                    onClick={(e) => {
-                        e.preventDefault();
-                        window.scrollTo(0, 0);
-                        }}
+                   
                         className='py-3 '>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
                         bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
@@ -287,13 +272,10 @@ const Boxcomp = () => {
                 </Link>
                 
                 <Link to='/category'>
-                    <div onClick={(e) => {
-                e.preventDefault();
-                window.scrollTo(0, 0);
-                }}
+                    <div 
                 className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#0013a0] py-[2.2rem] px-[2.2rem] mb-1">
                             <AiFillHome className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -308,13 +290,10 @@ const Boxcomp = () => {
                 </Link>
                 
                 <Link to='/category'>
-                    <div onClick={(e) => {
-                e.preventDefault();
-                window.scrollTo(0, 0);
-                }}
+                    <div 
                 className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#43a000] py-[2.2rem] px-[2.2rem] mb-1">
                             <SiHomeassistantcommunitystore className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -329,13 +308,10 @@ const Boxcomp = () => {
                 </Link>
                 
                 <Link to='/category'>
-                    <div onClick={(e) => {
-                e.preventDefault();
-                window.scrollTo(0, 0);
-                }}
+                    <div 
                 className='py-3'>
                         <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
+                        bg-[#5300a0] py-[2.2rem] px-[2.2rem] mb-1">
                             <FaCouch className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>

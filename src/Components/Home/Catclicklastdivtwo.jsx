@@ -14,7 +14,7 @@ const Catclicklastdivtwo = () => {
   return (
 
 
-    <div className='flex-col justify-start flex-nowrap xl:flex-wrap bg-white shadow-lg rounded-b-sm py-2 px-8 w-full'>
+    <div className='flex-col justify-start flex-nowrap xl:flex-wrap w-full'>
 
         <div className='flex items-center justify-center px-2 w-full text-lg text-[#2D4373] arabic'>
             <p>اسم الصفحة </p>

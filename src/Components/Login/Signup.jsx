@@ -60,7 +60,7 @@ const Signup = () => {
                 <div className='flex flex-col justify-center items-center mt-5'>
 
                     <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
-                        <span class="z-10 h-full absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
+                        <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[35px] mr-8' src={userlogin} alt="userlogin" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#29292a] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
@@ -68,7 +68,7 @@ const Signup = () => {
                     </div>
                     
                     <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
-                        <span class="z-10 h-full absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
+                        <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[30px] mr-8 mt-1' src={usermail} alt="usermail" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
@@ -76,7 +76,7 @@ const Signup = () => {
                     </div>
 
                     <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
-                        <span class="z-10 h-full absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
+                        <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[0.8rem] mr-8 mt-0.5' src={usernumber} alt="usernumber" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
@@ -84,7 +84,7 @@ const Signup = () => {
                     </div>
 
                     <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
-                        <span class="z-10 h-full absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
+                        <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[0.7rem]  mr-8' src={userpassone} alt="userpassone" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
@@ -92,7 +92,7 @@ const Signup = () => {
                     </div>
 
                     <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
-                        <span class="z-10 h-full absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
+                        <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[0.7rem] mr-8' src={userpasstwo} alt="userpasstwo" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
@@ -114,7 +114,7 @@ const Signup = () => {
                     تسجيل </text>
                 </div>
                 
-                <img className='-z-10 absolute top-[31rem] w-[25rem]' src={bglogin} alt="bglogin" /> 
+                <img className='-z-10 absolute top-[31rem] w-[26rem] opacity-50' src={bglogin} alt="bglogin" /> 
                 <Link to='/'>
                     <p className='text-xs mt-12 underline'>العودة إلى الرئيسية</p>
                 </Link>

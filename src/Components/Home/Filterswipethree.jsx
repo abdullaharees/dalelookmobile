@@ -46,7 +46,7 @@ const [nav, setNav] = useState(false)
                 </div>
               </div>
 
-                <div onClick={() => setNav(!nav)}  className='flex justify-center left-[11.5rem]  fixed bottom-8'>
+                <div onClick={() => setNav(!nav)}  className='flex justify-center absolute bottom-6 self-center w-full'>
                     <text className='py-2 px-6 text-xs font-bold bg-[#0092A0] rounded-full text-white text-center '>موافق
                     </text>
                 </div>

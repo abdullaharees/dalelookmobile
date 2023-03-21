@@ -121,7 +121,7 @@ function Dragndropbtn(props) {
   };
 
   return (
-    <section className="container">
+    <section className="container flex justify-center">
       <div {...getRootProps({className: ''})}>
         <input {...getInputProps()} />
         {showPreview ? (
@@ -157,8 +157,14 @@ function Dragndropbtn(props) {
           <div className="absolute top-[3.5rem] right-[9rem] w-[6.5rem] h-[6.5rem] bg-gray-200 rounded-full">
             
           </div>
+
+          
         )}
+              <div className={'flex justify-center mt-5 px-2 py-1 bg-black text-white ' }>
+                ok
+              </div>
       </div>
+      
     </section>
   );
 

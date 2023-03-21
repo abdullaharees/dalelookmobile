@@ -10,7 +10,7 @@ const Productprice = ({target, setTarget}) => {
         <div className='flex justify-between'>
             <div className='flex mt-[0.3rem]'>
                 <img className='w-[0.7rem]  ml-3' src={imgpath} alt="imgpath" />
-                <p className='text-white ml-1 text-[0.7rem] mt-1'>{target+1}</p>
+                <p className='text-white ml-1 text-[0.7rem] mt-2'>{target+1} - 10</p>
             </div>
             <div className='flex mt-[0.3rem]'>
                 <p className='text-[1rem] text-[white] arabic mr-2 font-bold'>188,000 <span className='text-[0.8rem]'>د.إ</span></p>

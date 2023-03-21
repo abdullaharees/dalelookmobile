@@ -1,12 +1,15 @@
 import React from 'react'
+import Footer from '../Footer'
 import Navbar from '../Navbar'
 import Realestateone from './Realestateone'
 
 const Homeproduct = () => {
   return (
-    <div>
+    <div className='pb-16'>
       <Navbar/>
       <Realestateone />
+      <Footer />
+
     </div>
   )
 }

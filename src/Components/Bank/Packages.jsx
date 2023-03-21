@@ -33,9 +33,9 @@ const [layout, setLayout] = useState(1)
             </div>
 
 
-            <div className='w-full bg-white flex flex-col justify-center h-[70rem] 
+            <div className='w-full bg-white flex flex-col justify-center h-[65rem] 
              rounded-b-sm object-cover '>
-                <div className="flex flex-wrap justify-center items-center gap-20 ">
+                <div className="flex flex-wrap justify-center items-center gap-10 ">
 
                 <Link to='/cardpage'>
                     <div className='cursor-pointer w-[14rem]  pt-[2.3rem] rounded-t-md flex flex-col justify-center arabic border-[#3CB878] border-[1px]
