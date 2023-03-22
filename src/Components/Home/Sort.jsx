@@ -12,7 +12,7 @@ export default function Sort() {
     return (
         <Menu as="div" className="relative inline-block text-left z-20">
             <div className="arabic">
-                <Menu.Button className='flex flex-col justify-center items-center mt-2 ml-[2rem] mr-5'>
+                <Menu.Button className='flex flex-col justify-center items-center'>
                     <img className='w-[1.1rem] py-1' src={sortm} alt="Company Logo" />
                     <p className='text-[white] ml-1 text-[0.6rem]'>فرز</p> 
                 </Menu.Button>

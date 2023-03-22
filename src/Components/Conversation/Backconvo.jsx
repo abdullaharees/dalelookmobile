@@ -12,7 +12,7 @@ import Lighbulbpopup from './Lightbulbpopup'
 
 const Backconvo = () => {
   return (
-    <div className='bg-[#0092A0] h-[4.8rem] shadow-md'>
+    <div className='bg-[#0092A0] w-[100%]'>
         <div className='flex justify-between mb-1'>
             <div className='flex'>
               <Link to='/convo'>
@@ -36,7 +36,7 @@ const Backconvo = () => {
         <div className='flex justify-center'>
             <div className='border-b-3 content-between border-b-[1.5px] w-[93%] mt-[0.3rem] mb-[0.1rem]'></div>
         </div>
-        <div className=' flex justify-between'>
+        <div className=' flex justify-between pb-2'>
             <div className='flex'>
                 <MdKeyboardArrowLeft className='text-[white] ml-2 mt-2' size={15}/>
             </div>

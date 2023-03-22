@@ -10,7 +10,7 @@ import Footer from '../Footer'
 
 const Categorypage = () => {
   return (
-    <div className='pb-24'>
+    <div className='overflow-hidden pb-24'>
         <Navbar />
         <Catbar className='z-50' />
         <Searchbar />

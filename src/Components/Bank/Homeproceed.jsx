@@ -11,7 +11,7 @@ const Homeproceed = () => {
     console.log(layout)
   },[layout])
   return (
-    <div >
+    <div className=''>
         <Backproceed layout={layout} setLayout={setLayout} />
         {layout === 1 ? <Proceedone layout={layout} setLayout={setLayout} /> : <Proceedthree />}
         {/* <Proceedone   */}

@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom'
 
 const Backcard = () => {
   return (
-    <div className='bg-[#0092A0] h-[2.6rem]'>
+    <div className='bg-[#0092A0] h-[2.6rem] w-full'>
             <div className='flex justify-between'>
               <div>
                 <Link to='/packages'>

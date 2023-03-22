@@ -11,14 +11,14 @@ import { FaHeart, FaRegHeart } from 'react-icons/fa'
 const Componenttwo = () => {
     const [like, setLike] = useState([]);
   return (
-    <div className=' h-[6.8rem] w-[23rem] mt-2 ml-2 mr-2 rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]'>
+    <div className=' py-[5px] mt-2 ml-2 mr-2 rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]'>
                 
 
                 <div className='flex arabic'>
          
-                    <img className='w-[9.2rem] mr-1 mt-1' src={villa} alt="car" />
+                    <img className='w-[50%] mr-1 mt-1' src={villa} alt="car" />
                   
-                  <div className='w-full'>
+                  <div className='w-[50%]'>
                     <p className='text-[#2D4373] font-bold text-[0.8rem] arabic pr-1 mb-3 pt-1'>العنوان الرئيسي للإعلان</p>
                     <div>
                         <p className='text-[0.8rem] text-[#333333] arabic mr-2 font-bold'>600,000 <span className='text-[0.7rem]'>د.إ</span></p>

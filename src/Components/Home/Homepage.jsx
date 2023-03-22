@@ -8,7 +8,7 @@ import Sliders from './Sliders'
 
 const Homepage = () => {
   return (
-    <div className='pb-24'>
+    <div className='overflow-hidden pb-24'>
       <Navbar />
     
         <Sliders />

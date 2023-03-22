@@ -17,7 +17,7 @@ export default function Languagedroplogin() {
         <Menu as="div" className="relative  text-left ">
             <div className="arabic ">
                 <Menu.Button className="text-[#0092A0] inline-flex justify-center 
-                px-2 mr-[17rem] pt-[1rem]
+                px-2 mr-[14rem] pt-[1rem]
                 text-sm font-medium text-[#0092A0]shadow-sm">
                     <RiArrowDownSLine size={20} className='text-[#737373] font-bold mt-[] cursor-pointer'/>
                     {/* <span className="text-[#0092A0] text-sm ">العربية</span> */}

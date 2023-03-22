@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import Component from './Component';
 
 
-const Catclicklastdiv = () => {
+const Catclicklastdivem = () => {
 const [like, setLike] = useState([]);
 
   return (
@@ -71,4 +71,4 @@ const [like, setLike] = useState([]);
   )
 }
 
-export default Catclicklastdiv
+export default Catclicklastdivem

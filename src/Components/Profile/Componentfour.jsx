@@ -11,7 +11,7 @@ import { FaHeart, FaRegHeart } from 'react-icons/fa'
 const Componentfour = () => {
     const [like, setLike] = useState([]);
   return (
-    <div className=' h-[8.25rem] w-[23rem] mt-2 ml-2 mr-2 rounded-sm border-[2px] '>
+    <div className=' max-w-[23rem] w-[97%] mt-2 rounded-sm border-[2px] '>
                 
 
                 <div className='flex arabic'>

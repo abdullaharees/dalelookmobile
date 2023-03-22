@@ -12,9 +12,9 @@ export default function Gridrop() {
     return (
         <Menu as="div" className="relative inline-block text-left z-20">
             <div className="arabic">
-                <Menu.Button className='flex flex-col justify-center items-center mt-2 ml-[1rem] mr-[1rem]'>
+                <Menu.Button className='flex flex-col justify-center items-center'>
                     <img className='w-[1.1rem] py-1' src={gridm} alt="Company Logo" />
-                    <p className='text-[white] ml-2 mt-[0.15rem] text-[0.6rem]'>عرض الإعلانات</p> 
+                    <p className='text-[white] mt-[0.15rem] text-[0.6rem]'>عرض الإعلانات</p> 
                 </Menu.Button>
             </div>
 

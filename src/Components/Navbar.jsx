@@ -38,7 +38,7 @@ import Popupnavtwo from './Home/Popupnavtwo'
 import Popupnavthree from './Home/Popupnavthree'
 
 const Navbar = () => {
-const [signedIn, setSignedIn] = useState(false)
+const [signedIn, setSignedIn] = useState(true)
 
     useEffect(() => {
         console.log(signedIn)
@@ -47,18 +47,18 @@ const [nav, setNav] = useState(false)
 const location = useLocation();
 console.log(location.pathname);
   return (
-    <div>
-        <div className=' bg-[#F8F8F8] h-[2.7rem] flex justify-between items-center'>
+    <div className='w-full flex'>
+        <div className=' bg-[#F8F8F8] h-[2.7rem] flex justify-between items-center w-[100%]'>
 
             {/* Left Side */}
             <div className='flex ml-4 mr-2'>
                 <Link to='/'>
-                    <img className='w-[10rem] py-1' src={Logo} alt="Company Logo" />
+                    <img className='max-w-[10rem] w-[70%] py-1' src={Logo} alt="Company Logo" />
                 </Link> 
             </div>
 
             {/* Right Side */}
-            <div className="flex flex-row flex-wrap items-center 
+            <div className="flex flex-row items-center 
                 my-[0.5rem] text-xs font-bold">
                 
                 <Link to="/packages">
@@ -73,7 +73,7 @@ console.log(location.pathname);
                         <Notifdrop />
                     </div>
 
-                    <div onClick={() => setNav(!nav)} className='mt-[0.2rem] cursor-pointer mr-5'>
+                    <div onClick={() => setNav(!nav)} className='mt-[0.2rem] cursor-pointer mr-3'>
                         <AiOutlineMenu className='text-[#333333] ' size={23}/>
                     </div>
 
@@ -81,7 +81,7 @@ console.log(location.pathname);
                     onClick={() => setNav(!nav)} 
                     className='bg-black/80 fixed w-full h-screen z-[500] top-0 left-0'></div> : ''}
                     
-                   { signedIn===false ?   <div className={nav ? 'z-[501] fixed top-0 right-0 w-[15rem] h-screen bg-white duration-300' : 'fixed top-0 right-[-100%] w-[300px] h-screen bg-white z-10 duration-300'}>
+                   { !signedIn ? <div className={nav ? 'z-[501] fixed top-0 right-0 w-[15rem] h-screen bg-white duration-300' : 'fixed top-0 right-[-100%]  bg-white z-10 duration-300'}>
                                 <img className="relative w-full" src={menutop} alt="price" />
                                 
                                 <img className="absolute top-[3.5rem] right-[3rem] w-[9rem]" src={logowhite} alt="price" />
@@ -97,7 +97,7 @@ console.log(location.pathname);
 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
                                 
-                                <Link to='/myprofile' onClick={() => setNav(!nav)} >
+                                <Link to='/profile' onClick={() => setNav(!nav)} >
                                     <li className='py-1 flex mr-5 text-[#0092A0]'>
                                         <img className='w-[1.1rem]  mr-2 ml-3' src={path} alt="user" />
                                         <p className={`${location.pathname==='/myprofile' ?  'text-[#0092A0] font-bold': 'text-black font-normal'}  ml-2  text-[0.9rem]`}>ابحث عن إعلان</p> 
@@ -106,10 +106,13 @@ console.log(location.pathname);
 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
+                                <Link to='/homeem' onClick={() => setNav(!nav)} >
+
                                     <li className='py-1 flex mr-5 text-[#0092A0]'>
                                         <img className="w-[1.1rem] mr-2 ml-3" src={Logoonly} alt="Company Logo two" />
                                         <p className='text-[#F89C35] ml-2 mt-[0.1rem] text-[0.9rem]'>الدليل الإماراتي</p> 
                                     </li>   
+                                    </Link>  
 
                                     <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
@@ -155,7 +158,9 @@ console.log(location.pathname);
                             <p>البنود و الشروط</p>
                         </div>
 
-                        <div onClick={e => setSignedIn(true)}
+                        <div onClick={(e) => {
+                            e.preventDefault();
+                            setSignedIn(true)}}
                         className='flex justify-center mt-8 ml-[4rem] py-[0.4rem] w-[8rem] bg-[#0092A0] rounded-full'>
                             <VscSignIn  className='text-white mr-1' size={15}/>
                             <text className=' text-[0.7rem] font-bold  text-white text-center cursor-pointer'>
@@ -172,8 +177,7 @@ console.log(location.pathname);
                         </div>
                     </div> 
                     :
-                    <div  className={nav ? 'fixed top-0 right-0 w-[15rem] h-screen bg-white z-[500] duration-300' : 'fixed top-0 right-[-100%] w-[300px] h-screen bg-white z-[500] duration-300'}>
-                                
+                    <div  className={nav ? 'fixed top-0 right-0 w-[15rem] min-h-screen bg-white z-[500] duration-300' : 'fixed top-0 right-[-100%] h-screen bg-white z-[500] duration-300'}>           
                                 <img className="relative w-full" src={menutop} alt="price" />
                                 
                                 <img className="absolute top-[1rem] right-[5rem] w-[5rem]" src={ppm} alt="ppm" />
@@ -202,7 +206,7 @@ console.log(location.pathname);
                                 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
-                                <Link to='/grid' onClick={() => setNav(!nav)} >
+                                <Link to='#' onClick={() => setNav(!nav)} >
                                     <li className='py-1 flex mr-5 text-[#0092A0]'>
                                         <img className='w-[1rem]  mr-2 ml-3' src={gridham} alt="gridham" />
                                         <p className={`${location.pathname==='/grid' ?  'text-[#0092A0] font-bold': 'text-black font-normal'}  ml-2  text-[0.9rem]`}>إعلاناتي</p> 
@@ -220,7 +224,7 @@ console.log(location.pathname);
 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
                                 
-                                <Link to='/heart' onClick={() => setNav(!nav)} >
+                                <Link to='#' onClick={() => setNav(!nav)} >
                                     <li className='py-1 flex mr-5 text-[#0092A0]'>
                                         <img className='w-[1rem]  mr-2 ml-3' src={heartham} alt="heartham" />
                                         <p className={`${location.pathname==='/heart' ?  'text-[#0092A0] font-bold': 'text-black font-normal'}  ml-2  text-[0.9rem]`}>المفضلة</p> 
@@ -228,13 +232,15 @@ console.log(location.pathname);
                                 </Link>  
 
                                 <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
-
+                                    
+                                <Link to='/homeem' onClick={() => setNav(!nav)} >
                                     <li className='py-1 flex mr-5 text-[#0092A0]'>
                                         <img className="w-[1.1rem] mr-2 ml-3" src={Logoonly} alt="Company Logo two" />
                                         <p className='text-[#F89C35] ml-2 mt-[0.1rem] text-[0.9rem]'>الدليل الإماراتي</p> 
                                     </li>   
+                                </Link>  
 
-                                    <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
+                                <div className='content-between border-b-[2.3px] w-full mb-[0.1rem]'></div>
 
                                 <Link to="/proceed" onClick={() => setNav(!nav)} >
                                     <li className='py-1 mt-[0.1rem] flex mr-5 text-[#0092A0]'>
@@ -295,7 +301,10 @@ console.log(location.pathname);
                             <p>البنود و الشروط</p>
                         </div>
 
-                        <div onClick={setSignedIn(false)} className='flex justify-center mt-8 ml-[4rem] py-[0.4rem] w-[8rem] bg-[#0092A0] rounded-full'>
+                        <div onClick={(e) => {
+                            e.preventDefault();
+                            setSignedIn(false)}}
+                         className='flex justify-center mt-8 ml-[4rem] py-[0.4rem] w-[8rem] bg-[#0092A0] rounded-full'>
                                 <RxExit className='text-white mr-1' size={15}/>
                                 <text className=' text-[0.7rem] font-bold  text-white text-center cursor-pointer'>
                               تسجيل الخروج </text> 

@@ -84,7 +84,7 @@ const [layout, setLayout] = useState(1)
 
                 <p className='text-xs text-right font-bold text-[#333333] mt-3 mb-2 flex arabic'>اسم حامل البطاقة*</p>
 
-                <div className='bg-[#F7F7F8] rounded flex justify-center w-[20rem] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+                <div className='bg-[#F7F7F8] rounded flex justify-center w-[90%] max-w-[20rem] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                   <input className='outline-none bg-transparent border-[#9F9F9F] py-2 px-2 place-items-center mt-.9 w-full arabic rounded-l-sm text-xs text-[#737373]'
                     type="text"
                     placeholder=' اكتب اسم حامل البطاقة'></input>
@@ -97,7 +97,7 @@ const [layout, setLayout] = useState(1)
 
                 <p className='text-xs font-bold text-[#333333] mt-3 mb-2 flex arabic'>رقم البطاقة*</p>
 
-                <div className='bg-[#F7F7F8] rounded flex justify-center w-[20rem] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+                <div className='bg-[#F7F7F8] rounded flex justify-center w-[90%] max-w-[20rem] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                   <input className='outline-none bg-transparent border-[#9F9F9F] py-2 px-2 place-items-center mt-.9 w-full arabic text-sm'
                     type="text"
                     placeholder='اسم المستخدم'></input>
@@ -108,39 +108,40 @@ const [layout, setLayout] = useState(1)
 
               </div>
 
-              <div className='flex justify-center arabic mt-2'>
+              <div className='flex justify-center w-[100%] '>
+                <div className='flex justify-center max-w-[400px]  mt-2 space-x-2'>                
+                  <div className='flex flex-col justify-center w-[50%] items-center'>
 
-                <div className='flex flex-col justify-center items-center  space-x-8'>
+                    <p className='text-xs font-bold text-[#333333] mt-3 mb-2 flex arabic'>شهر الانتهاء*</p>
 
-                  <p className='text-xs font-bold text-[#333333] mt-3 ml-10 mb-2 flex arabic'>سنة الانتهاء*</p>
+                    <div className='bg-[#F7F7F8] rounded flex justify-center w-[95%] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+                      <input className='outline-none bg-transparent border-[#9F9F9F] py-2 px-2 place-items-center mt-.9 w-full arabic rounded-l-sm text-xs text-[#737373]'
+                        type="text"
+                        placeholder='اكتب شهر انتهاء البطاقة'></input>
+                    </div>
 
-                  <div className='bg-[#F7F7F8] rounded flex justify-center w-[9rem]  shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+                </div>
+
+                <div className='flex flex-col justify-center items-center w-[50%] '>
+
+                  <p className='text-xs font-bold text-[#333333] mt-3 mb-2 flex justify-center items-center arabic'>سنة الانتهاء*</p>
+
+                  <div className='bg-[#F7F7F8] rounded flex justify-center w-[95%] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                     <input className='outline-none bg-transparent border-[#9F9F9F] py-2 px-2 place-items-center mt-.9 w-full arabic rounded-l-sm text-xs text-[#737373]'
                       type="text"
                       placeholder='اكتب سنة انتهاء البطاقة'></input>
                   </div>
 
                 </div>
-
-                <div className='flex flex-col justify-center items-center mr-0 xl:mr-3'>
-
-                  <p className='text-xs font-bold text-[#333333] mt-3 mb-2 flex arabic'>شهر الانتهاء*</p>
-
-                  <div className='bg-[#F7F7F8] rounded flex justify-center w-[9rem] shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
-                    <input className='outline-none bg-transparent border-[#9F9F9F] py-2 px-2 place-items-center mt-.9 w-full arabic rounded-l-sm text-xs text-[#737373]'
-                      type="text"
-                      placeholder='اكتب شهر انتهاء البطاقة'></input>
-                  </div>
-
                 </div>
-
               </div>
+              
 
 
                 <div className='flex flex-col justify-center items-center mt-2'>
 
-                  <div className='flex arabic'>
-                    <p className='text-xs font-bold text-[#333333] mt-3 mb-2 flex arabic'>رمز الأمان CVV *</p>
+                  <div className='flex justify-center items-center arabic'>
+                    <p className='text-xs font-bold text-[#333333] mt-3 mb-2 flex justify-center mr-2 arabic'>رمز الأمان CVV *</p>
                     <img className='w-[8px] mr-1 ml-3 cursor-pointer' src={q} alt="q" />
                   </div>
 

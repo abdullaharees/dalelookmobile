@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="48" viewBox="0 0 91 48">
+  <g id="thecheck" fill="#f3f3f3" stroke="#707070" stroke-width="0.7">
+    <path d="M5,0H91a0,0,0,0,1,0,0V48a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" stroke="none"/>
+    <path d="M5,.35H90.65a0,0,0,0,1,0,0v47.3a0,0,0,0,1,0,0H5A4.65,4.65,0,0,1,.35,43V5A4.65,4.65,0,0,1,5,.35Z" fill="none"/>
+  </g>
+</svg>

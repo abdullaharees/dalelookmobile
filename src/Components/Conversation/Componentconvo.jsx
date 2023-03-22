@@ -11,10 +11,10 @@ import { FaHeart, FaRegHeart } from 'react-icons/fa'
 const Componentconvo = () => {
     const [like, setLike] = useState([]);
   return (
-    <div className=' h-[5.2rem] w-[22rem] mt-2 ml-3 mr-2 rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]'>
+    <div className='flex justify-center max-w-[22rem] mt-2 rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]'>
                 
 
-                <div className='flex '>
+                <div className='flex justify-center items-center'>
          
                     <img className='w-[7rem] ml-1 mr-1' src={villa} alt="car" />
                   

@@ -25,40 +25,40 @@ const Login = () => {
                     <Link to='/'>
                         <img className='w-[15rem] mt-[4.5rem] py-1' src={Logo} alt="Company Logo" />
                     </Link>
-                    <p className='mt-3  text-[#7F7F7F] text-md font-bold text-center w-[20rem]'>المنصة الأولى في سوريا للإعلانات الإلكترونية المبوبة و دليل الشركات و المؤسسات و المحلات في كافة المدن السورية  </p>
+                    <p className='mt-3 w-[95%] text-[#7F7F7F] text-md font-bold text-center max-w-[20rem]'>المنصة الأولى في سوريا للإعلانات الإلكترونية المبوبة و دليل الشركات و المؤسسات و المحلات في كافة المدن السورية  </p>
                 </div>            
                 
-                <div className='flex flex-col justify-center items-center mt-5'>
+                <div className='flex flex-col justify-center items-center mt-5 w-full'>
 
                    
-                    <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
+                    <div class="w-[95%] max-w-[20rem] flex-wrap mr-5 items-stretch mb-3 arabic">
                         <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[30px] mr-8 mt-1' src={usermail} alt="usermail" /> 
                         </span>
-                        <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-full focus:outline-none " placeholder='البريد الإلكتروني أو رقم الجوال*'/>
+                        <input type="text" class="pr-16 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
+                        text-[10px] w-[93%] focus:outline-none " placeholder='البريد الإلكتروني أو رقم الجوال*'/>
 
                         
                     </div>
 
 
-                    <div class=" w-[20rem] flex-wrap items-stretch mb-1 arabic">
+                    <div class="relative w-[95%] max-w-[20rem] flex-wrap mr-5 items-stretch mb-1 arabic">
                         <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[0.7rem]  mr-8' src={userpassone} alt="userpassone" /> 
                         </span>
-                        <input type={showPassword === true ? "text" : "password"} class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-full focus:outline-none " placeholder=' كلمة المرور*'/>
+                        <input type={showPassword === true ? "text" : "password"} class="pr-16 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
+                        text-[10px] w-[93%] focus:outline-none " placeholder=' كلمة المرور*'/>
 
-                        {showPassword === false && <span onClick={e => setShowPassword(true)} class="z-10 left-10 leading-snug absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
+                        {showPassword === false && <span onClick={e => setShowPassword(true)} class="z-10 left-10  absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[30px] mt-1' src={eyetwo} alt="eyetwo" /> 
                         </span>}
 
-                        {showPassword === true && <span onClick={e => setShowPassword(false)} class="z-10 left-10 leading-snug absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
+                        {showPassword === true && <span onClick={e => setShowPassword(false)} class="z-10 left-10  absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[30px] mt-1' src={eyeone} alt="eyeone" /> 
                         </span>}
                     </div>
 
-                    <div className='ml-[13rem] flex arabic'>
+                    <div className='ml-[10rem] flex arabic'>
                         <p className='text-xs text-right text-[#4F4386]'>فقدت  كلمة المرور</p>
                     </div>
                     
@@ -98,7 +98,7 @@ const Login = () => {
                   </text>
                 </div>
 
-                <p className='text-xs mt-16 underline'>العودة إلى الرئيسية</p>
+                <p className='text-xs mt-16 pb-5 underline'>العودة إلى الرئيسية</p>
 
     </div>
   )

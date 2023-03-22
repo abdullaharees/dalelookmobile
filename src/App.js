@@ -22,6 +22,10 @@ import Login from './Components/Login/Login'
 import Convo from './Components/Conversation/Convo'
 import Mainconvo from './Components/Conversation/Mainconvo'
 import ScrollToTop from './ScrollToTop'
+import Homepageem from './Components/Emiratesmobile/Homeem/Homepageem'
+import Homeprofileem from './Components/Emiratesmobile/Profileem/Homeprofilem'
+import Categorypageem from './Components/Emiratesmobile/Homeem/Categorypageem'
+import Homeproceedem from './Components/Emiratesmobile/Bank/Homeproceedem'
 
 function App() {
   return (
@@ -43,6 +47,12 @@ function App() {
 
             <Route path='/signup' element={<Signup />} />
             <Route path='/login' element={<Login />} />
+
+            <Route path='/homeem' element={<Homepageem />} />
+            <Route path='/profileem' element={<Homeprofileem />} />
+            <Route path='/categoryem' element={<Categorypageem />} />
+            {/* <Route path='/productem' element={<Homeproductem />} /> */}
+            <Route path='/proceedem' element={<Homeproceedem />} />
 
         </Routes>
       </Router>

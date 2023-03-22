@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <g id="addfootem" transform="translate(1.035 1)">
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="20.5" cy="20.5" r="20.5" transform="translate(-1.035 -1)" fill="#333"/>
+    <path id="Path_501" data-name="Path 501" d="M112.771,102.848a2.148,2.148,0,0,1-2.157,2.157h-7.191V112.2a2.157,2.157,0,0,1-4.315,0v-7.191H91.917a2.157,2.157,0,0,1,0-4.315h7.191V93.5a2.157,2.157,0,1,1,4.315,0v7.191h7.191A2.148,2.148,0,0,1,112.771,102.848Z" transform="translate(-81.92 -83.645)" fill="#fff"/>
+  </g>
+</svg>

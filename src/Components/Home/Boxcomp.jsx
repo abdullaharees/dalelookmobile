@@ -28,15 +28,15 @@ const Boxcomp = () => {
         </div>
 
     <div className='flex flex-col justify-center'>
-
+       
         <div className='flex justify-center flex-wrap xl:flex-nowrap'>
-            <div className='flex justify-center space-x-4'>   
+            <div className='flex justify-between w-[95%] max-w-[330px] space-x-2'>   
                 <Link to='/category'>
                     <div className='py-3 '>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#a00000] py-[2.2rem] px-[2.2rem] mb-1">
-                            <FaCarAlt className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
-                              text-[white] text-[1.8rem]'/>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#a00000] mb-1">
+                            <FaCarAlt className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                              text-[white] text-[2rem]'/>
                         </div>
                         <div className=''>    
                             <p className='text-[0.6rem] font-bold text-center'>عنوان التصنيف</p>
@@ -50,9 +50,9 @@ const Boxcomp = () => {
                 
                 <Link to='/category'>
                     <div className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
-                            <AiFillHome className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#0092A0] mb-1">
+                            <AiFillHome className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -67,9 +67,9 @@ const Boxcomp = () => {
                 
                 <Link to='/category'>
                     <div className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#1500a0] py-[2.2rem] px-[2.2rem] mb-1">
-                            <SiHomeassistantcommunitystore className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#1500a0] mb-1">
+                            <SiHomeassistantcommunitystore className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -84,9 +84,9 @@ const Boxcomp = () => {
                 
                 <Link to='/category'>
                     <div className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#00a020] py-[2.2rem] px-[2.2rem] mb-1">
-                            <FaCouch className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#00a020] mb-1">
+                            <FaCouch className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -100,14 +100,13 @@ const Boxcomp = () => {
                 </Link>
             </div>
                    
-            <div className='flex justify-center space-x-4'>   
+            <div className='flex justify-between w-[95%] max-w-[330px] space-x-2'>   
                 <Link to='/category'>
-                    <div
-                     className='py-3 '>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#95a000] py-[2.2rem] px-[2.2rem] mb-1">
-                            <BsCameraFill className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
-                              text-[white] text-[1.8rem]'/>
+                    <div className='py-3 '>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#a06000] mb-1">
+                            <BsCameraFill className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                              text-[white] text-[2rem]'/>
                         </div>
                         <div className=''>    
                             <p className='text-[0.6rem] font-bold text-center'>عنوان التصنيف</p>
@@ -121,9 +120,9 @@ const Boxcomp = () => {
                 
                 <Link to='/category'>
                     <div className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0063a0] py-[2.2rem] px-[2.2rem] mb-1">
-                            <MdComputer className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#000000] mb-1">
+                            <MdComputer className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -138,9 +137,9 @@ const Boxcomp = () => {
                 
                 <Link to='/category'>
                     <div className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0ba000] py-[2.2rem] px-[2.2rem] mb-1">
-                            <FaTools className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#a0004b] mb-1">
+                            <FaTools className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -155,9 +154,9 @@ const Boxcomp = () => {
                 
                 <Link to='/category'>
                     <div className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#a00045] py-[2.2rem] px-[2.2rem] mb-1">
-                            <GiWashingMachine className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#78a000] mb-1">
+                            <GiWashingMachine className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -171,17 +170,15 @@ const Boxcomp = () => {
                 </Link>
             </div>
         </div>
-                
+                       
         <div className='flex justify-center flex-wrap xl:flex-nowrap'>
-            <div className='flex justify-center space-x-4'>   
+            <div className='flex justify-between w-[95%] max-w-[330px] space-x-2'>   
                 <Link to='/category'>
-                    <div 
-                   
-                        className='py-3 '>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0ba000] py-[2.2rem] px-[2.2rem] mb-1">
-                            <CgGym className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
-                              text-[white] text-[1.8rem]'/>
+                    <div className='py-3 '>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#00a015] mb-1">
+                            <CgGym className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                              text-[white] text-[2rem]'/>
                         </div>
                         <div className=''>    
                             <p className='text-[0.6rem] font-bold text-center'>عنوان التصنيف</p>
@@ -194,12 +191,10 @@ const Boxcomp = () => {
                 </Link>
                 
                 <Link to='/category'>
-                    <div 
-                   
-                        className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
-                            <GiCookingPot className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                    <div className='py-3'>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#05cbc4] mb-1">
+                            <GiCookingPot className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -213,12 +208,10 @@ const Boxcomp = () => {
                 </Link>
                 
                 <Link to='/category'>
-                    <div 
-                   
-                        className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#a00085] py-[2.2rem] px-[2.2rem] mb-1">
-                            <BsLightbulbFill className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                    <div className='py-3'>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#8300a0] mb-1">
+                            <BsLightbulbFill className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -232,12 +225,10 @@ const Boxcomp = () => {
                 </Link>
                 
                 <Link to='/category'>
-                    <div 
-                   
-                        className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#a00000] py-[2.2rem] px-[2.2rem] mb-1">
-                            <BsSpeakerFill className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                    <div className='py-3'>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#a00000] mb-1">
+                            <BsSpeakerFill className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -251,15 +242,13 @@ const Boxcomp = () => {
                 </Link>
             </div>
 
-            <div className='flex justify-center space-x-4'>   
+            <div className='flex justify-between w-[95%] max-w-[330px] space-x-2'>   
                 <Link to='/category'>
-                    <div 
-                   
-                        className='py-3 '>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0092A0] py-[2.2rem] px-[2.2rem] mb-1">
-                            <FaCarAlt className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
-                              text-[white] text-[1.8rem]'/>
+                    <div className='py-3 '>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#0090a0] mb-1">
+                            <FaCarAlt className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                              text-[white] text-[2rem]'/>
                         </div>
                         <div className=''>    
                             <p className='text-[0.6rem] font-bold text-center'>عنوان التصنيف</p>
@@ -272,11 +261,10 @@ const Boxcomp = () => {
                 </Link>
                 
                 <Link to='/category'>
-                    <div 
-                className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#0013a0] py-[2.2rem] px-[2.2rem] mb-1">
-                            <AiFillHome className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                    <div className='py-3'>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#0000a0] mb-1">
+                            <AiFillHome className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -290,11 +278,10 @@ const Boxcomp = () => {
                 </Link>
                 
                 <Link to='/category'>
-                    <div 
-                className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#43a000] py-[2.2rem] px-[2.2rem] mb-1">
-                            <SiHomeassistantcommunitystore className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                    <div className='py-3'>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#00a000] mb-1">
+                            <SiHomeassistantcommunitystore className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -308,11 +295,10 @@ const Boxcomp = () => {
                 </Link>
                 
                 <Link to='/category'>
-                    <div 
-                className='py-3'>
-                        <div className="relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#5300a0] py-[2.2rem] px-[2.2rem] mb-1">
-                            <FaCouch className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+                    <div className='py-3'>
+                        <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
+                        bg-[#5b00a0] mb-1">
+                            <FaCouch className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
                         <div>    
@@ -324,7 +310,7 @@ const Boxcomp = () => {
                         </div>
                     </div>
                 </Link>
-            </div>    
+            </div>   
         </div> 
         
     </div>

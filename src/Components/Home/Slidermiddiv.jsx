@@ -61,7 +61,7 @@ return (
             modules={[Navigation, Pagination, Mousewheel, Keyboard]}
             onSwiper={setSwiper}
             direction="horizontal"
-            spaceBetween={30}
+            spaceBetween={15}
             slidesPerView={2}
 
             className="mySwiper slider2 w-full bottom-5 flex justify-center flex-wrap xl:flex-nowrap"

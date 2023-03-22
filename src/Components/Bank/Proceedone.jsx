@@ -22,7 +22,7 @@ const Proceedone = ({layout, setLayout, target, setTarget}) => {
         
 
         
-        <div className='flex items-center justify-center pb-[22rem]'>
+        <div className='flex items-center justify-center pb-[23rem]'>
 
                    
             
@@ -141,13 +141,16 @@ const Proceedone = ({layout, setLayout, target, setTarget}) => {
                             placeholder='اوصف ما الذي يجعل إعلانك واضح للعملاء'>
                         </ textarea>
                     </div>
-
-                    <div className='flex justify-between space-x-[12rem] mt-2'>
+                    
+                    <div className='w-[88%] self-center'>
+                        <div className='flex justify-between mt-2'>
                         <img className="w-[1.3rem] mt-2" src={cammob} alt="Company Logo" />
-                        <p className='text-[0.8rem] font-bold text-[#333333] mt-2 flex text-right'>التقط أو اختر 8 صور</p>
+                        <p className='text-[0.8rem] font-bold text-[#333333] mt-2 flex text-right mr-3'>التقط أو اختر 8 صور</p>
                     </div>
 
-                    <div className='mt-10 arabic flex'>
+                    
+                    </div>
+                    <div className='mt-10 arabic mr-7 flex'>
                         <p className='text-[0.6rem] lg:text-xs'>من خلال الاستمرار في هذا الموقع، فإنك تقبل لدينا  </p>
                         <p className='text-[#0055E4] text-[0.6rem] lg:text-xs mr-1'>تعليمات لاستخدام</p>
                     </div>

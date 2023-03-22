@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <g id="plusnavem" transform="translate(-336 -362.16)">
+    <path id="Path_163" data-name="Path 163" d="M8.5,0A8.5,8.5,0,1,0,17,8.5,8.5,8.5,0,0,0,8.5,0Z" transform="translate(336 362.16)" fill="#fc0"/>
+    <path id="plus_2_" data-name="plus (2)" d="M.489,4.4H4.4V.489a.489.489,0,0,1,.978,0V4.4H9.293a.489.489,0,0,1,0,.978H5.38V9.293a.489.489,0,1,1-.978,0V5.38H.489a.489.489,0,1,1,0-.978Zm0,0" transform="translate(339.609 365.769)" fill="#fff"/>
+  </g>
+</svg>

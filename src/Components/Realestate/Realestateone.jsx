@@ -26,37 +26,37 @@ const Realestateone = () => {
         <div className='arabic justify-center items-center'>
           <p className='text-[#0092A0] text-center font-bold mt-2'> تفاصيل</p>
           <div className='flex flex-col justify-center items-center'>
-              <div className=' bg-white w-[95%] mr-2 h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+              <div className=' bg-white w-[95%]  h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                 <p className='text-[0.9rem] text-right font mb-2 mr-2 font-bold mt-1 text-[#5B5A5A]'>المعلومات الأساسية</p>
                 <p className='text-[0.9rem] text-left font mb-2 ml-2 mt-1 text-[#5B5A5A]'>القيمة</p>
               </div>
 
-              <div className=' bg-white w-[95%] mr-2 h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+              <div className=' bg-white w-[95%]  h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                 <p className='text-[0.9rem] text-right font mb-2 mr-2 font-bold mt-1 text-[#5B5A5A]'>المعلومات الأساسية</p>
                 <p className='text-[0.9rem] text-left font mb-2 ml-2 mt-1 text-[#5B5A5A]'>القيمة</p>
               </div>
 
-              <div className=' bg-white w-[95%] mr-2 h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+              <div className=' bg-white w-[95%]  h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                 <p className='text-[0.9rem] text-right font mb-2 mr-2 font-bold mt-1 text-[#5B5A5A]'>المعلومات الأساسية</p>
                 <p className='text-[0.9rem] text-left font mb-2 ml-2 mt-1 text-[#5B5A5A]'>القيمة</p>
               </div>
 
-              <div className=' bg-white w-[95%] mr-2 h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+              <div className=' bg-white w-[95%]  h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                 <p className='text-[0.9rem] text-right font mb-2 mr-2 font-bold mt-1 text-[#5B5A5A]'>المعلومات الأساسية</p>
                 <p className='text-[0.9rem] text-left font mb-2 ml-2 mt-1 text-[#5B5A5A]'>القيمة</p>
               </div>
 
-              <div className=' bg-white w-[95%] mr-2 h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+              <div className=' bg-white w-[95%]  h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                 <p className='text-[0.9rem] text-right font mb-2 mr-2 font-bold mt-1 text-[#5B5A5A]'>المعلومات الأساسية</p>
                 <p className='text-[0.9rem] text-left font mb-2 ml-2 mt-1 text-[#5B5A5A]'>القيمة</p>
               </div>
 
-              <div className=' bg-white w-[95%] mr-2 h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+              <div className=' bg-white w-[95%]  h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                 <p className='text-[0.9rem] text-right font mb-2 mr-2 font-bold mt-1 text-[#5B5A5A]'>المعلومات الأساسية</p>
                 <p className='text-[0.9rem] text-left font mb-2 ml-2 mt-1 text-[#5B5A5A]'>القيمة</p>
               </div>
 
-              <div className=' bg-white w-[95%] mr-2 h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
+              <div className=' bg-white w-[95%]  h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                 <p className='text-[0.9rem] text-right font mb-2 mr-2 font-bold mt-1 text-[#5B5A5A]'>المعلومات الأساسية</p>
                 <p className='text-[0.9rem] text-left font mb-2 ml-2 mt-1 text-[#5B5A5A]'>القيمة</p>
               </div>
@@ -65,11 +65,11 @@ const Realestateone = () => {
           <p className='text-[#0092A0] text-center font-bold mt-4'> الشرح</p>
           
           <div className='flex flex-col w-full justify-center items-center arabic'>
-            <div className='read-only text-[0.6rem]  mt-2 w-[95%] overflow-y-scroll resize-none outline-none pt-2 h-[11rem] px-3 text-xs  flex flex-col justify-end text-right border-[1px] border-[#9F9F9F] rounded-md bg-white'
+            <input disabled={true} className='read-only text-[0.6rem] mt-2 w-[95%] overflow-y-scroll resize-none outline-none pt-2 py-[10rem] px-3 text-xs  flex flex-col justify-end text-center border-[1px] border-[#9F9F9F] rounded-md bg-white'
               type="text"
               rows="4"
-              placeholder='القيمة القيمة القيمة القيمة القيمة القيمة القيمة القيمة'>
-            </ div>
+              placeholder='القيمة القيمة القيمة القيمة القيمة القيمة القيمة القيمة'
+            />
           </div> 
           
           <div className='bg-white mt-1 h-5'></div>

@@ -19,26 +19,27 @@ const Catbar = () => {
 const [nav, setNav] = useState(false)
 
   return (
-    <div className='bg-[#0092A0] h-[3.1rem] z-20'>
-        <div className='flex '>
+    <div className=' z-20'>
+        <div className='bg-[#0092A0] flex justify-center'>
+          <div className='flex justify-center space-x-0.5 bg-white w-[95%] max-w-[300px] mt-1'>
+              <div className='bg-[#0092A0] w-[25%] flex justify-center'>
+                <Filterswipetwo />
+              </div>
 
-
-              <Filterswipetwo />
-
-              <div className='border-r-[2px] border-white mt-1'></div>
-
-              <div className='flex flex-col justify-center items-center mt-2 ml-[1.5rem] mr-[1.5rem]'>
+              <div className='bg-[#0092A0] w-[25%]  flex flex-col justify-center items-center'>
                 <img className='w-[1.1rem] py-1' src={check} alt="Company Logo" />
                 <p className='text-[white] ml-1 text-[0.6rem]'>حفظ البحث</p> 
               </div>
         
-              <div className='border-r-[2px] border-white mt-1'></div>
+              <div className='bg-[#0092A0] w-[25%] flex justify-center'>
+                <Gridrop className='z-20 ' />
+              </div>
 
-              <Gridrop className='z-20 ' />
-
-              <div className='border-r-[2px] border-white mt-1'></div>
-
-              <Sort />
+              <div className='bg-[#0092A0] w-[25%] flex justify-center'>
+                <Sort />  
+              </div>
+          </div>
+              
         
         </div>
     </div>

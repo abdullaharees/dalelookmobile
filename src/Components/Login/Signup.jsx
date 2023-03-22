@@ -57,46 +57,46 @@ const Signup = () => {
                     <div className=' text-[#707070] font-bold'>أو</div>
                 </div>
 
-                <div className='flex flex-col justify-center items-center mt-5'>
+                <div className='flex flex-col justify-center items-center mt-5 w-full'>
 
-                    <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
+                    <div class=" w-[95%] mr-5 max-w-[20rem] flex-wrap items-stretch mb-3 arabic">
                         <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[35px] mr-8' src={userlogin} alt="userlogin" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#29292a] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-full focus:outline-none " placeholder='الإسم الكامل*'/>
+                        text-[10px] w-[93%] focus:outline-none " placeholder='الإسم الكامل*'/>
                     </div>
                     
-                    <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
+                    <div class=" w-[95%] mr-5 max-w-[20rem] flex-wrap items-stretch mb-3 arabic">
                         <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[30px] mr-8 mt-1' src={usermail} alt="usermail" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-full focus:outline-none " placeholder=' البريد الإلكتروني*'/>
+                        text-[10px] w-[93%] focus:outline-none " placeholder=' البريد الإلكتروني*'/>
                     </div>
 
-                    <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
+                    <div class=" w-[95%] mr-5 max-w-[20rem] flex-wrap items-stretch mb-3 arabic">
                         <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[0.8rem] mr-8 mt-0.5' src={usernumber} alt="usernumber" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-full focus:outline-none " placeholder=' رقم الجوال*'/>
+                        text-[10px] w-[93%] focus:outline-none " placeholder=' رقم الجوال*'/>
                     </div>
 
-                    <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
+                    <div class=" w-[95%] mr-5 max-w-[20rem] flex-wrap items-stretch mb-3 arabic">
                         <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[0.7rem]  mr-8' src={userpassone} alt="userpassone" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-full focus:outline-none " placeholder=' كلمة المرور*'/>
+                        text-[10px] w-[93%] focus:outline-none " placeholder=' كلمة المرور*'/>
                     </div>
 
-                    <div class=" w-[20rem] flex-wrap items-stretch mb-3 arabic">
+                    <div class=" w-[95%] mr-5 max-w-[20rem] flex-wrap items-stretch mb-3 arabic">
                         <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[0.7rem] mr-8' src={userpasstwo} alt="userpasstwo" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px]  w-full focus:outline-none " placeholder='تأكيد كلمة المرور*'/>
+                        text-[10px]  w-[93%] focus:outline-none " placeholder='تأكيد كلمة المرور*'/>
                     </div>
 
                 </div>
@@ -116,7 +116,7 @@ const Signup = () => {
                 
                 <img className='-z-10 absolute top-[31rem] w-[26rem] opacity-50' src={bglogin} alt="bglogin" /> 
                 <Link to='/'>
-                    <p className='text-xs mt-12 underline'>العودة إلى الرئيسية</p>
+                    <p className='text-xs mt-12 underline pb-5'>العودة إلى الرئيسية</p>
                 </Link>
 
     </div>

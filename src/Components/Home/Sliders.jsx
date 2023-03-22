@@ -12,11 +12,11 @@ const Sliders = () => {
             <Topsliderone />
         </div>
 
-        <div className='flex space-x-[0.1rem] mt-[0.1rem]'>
-            <div className='flex w-1/2 h-[9.2rem] '>
+        <div className='flex space-x-[0.1rem] h-[105px] mt-[0.1rem]'>
+            <div className='flex w-1/2  '>
                 <Topslidertwo />
             </div>
-            <div className='flex w-1/2 h-[9.2rem]'>
+            <div className='flex w-1/2 '>
                 <Topsliderthree />
             </div>
         </div>

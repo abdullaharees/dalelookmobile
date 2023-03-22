@@ -11,7 +11,7 @@ const Component = () => {
   const [like, setLike] = useState([]);
 
   return (
-    <div className='flex w-[11.3rem]  h-[13.6rem] rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]'>
+    <div className='flex pb-3 rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]'>
                   
         <div>
                     <div className='relative'>
@@ -28,7 +28,7 @@ const Component = () => {
                     <p className='text-[0.6rem] arabic mr-2'>الفئة , الفرع , الفرع</p>
 
                     <div className='flex justify-center'>
-                      <div className='content-between border-b-[2.3px] w-[95%] mt-1 mb-[0.1rem]'></div>
+                      <div className='content-between border-b-[2.3px] w-[95%] mt-1 mb-[0.2rem]'></div>
                     </div>
 
                     <div>

@@ -53,19 +53,7 @@ const img = {
   borderRadius: '50%',
 };
 
-const deleteButton = {
-  position: 'absolute', // Add position absolute to allow absolute positioning
-  top: 0,
-  right: 0,
-  background: 'rgba(255, 255, 255, 0.7)',
-  borderRadius: '50%',
-  width: '1.2rem',
-  height: '1.2rem',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  cursor: 'pointer'
-};
+
 
 function Dragndropbtn(props) {
   const [files, setFiles] = useState([]);
@@ -98,9 +86,7 @@ function Dragndropbtn(props) {
           }}
         />
       </div>
-      <div style={deleteButton} onClick={() => removeFile(index)}>
-        <span>&times;</span>
-      </div>
+      
     </div>
   ));
 
@@ -125,7 +111,7 @@ function Dragndropbtn(props) {
       <div {...getRootProps({className: ''})}>
         <input {...getInputProps()} />
         {showPreview ? (
-          <div className="absolute top-[3.5rem] right-[9rem] w-[6.5rem] h-[6.5rem]">
+          <div className=" w-[6.5rem] h-[6.5rem]">
             {thumbs.length > 0 ? (
               <div style={thumb}>
                 <div style={thumbInner}>
@@ -137,32 +123,33 @@ function Dragndropbtn(props) {
                     }}
                   />
                 </div>
-                <div style={deleteButton} onClick={() => removeFile(0)}>
-                  <span>&times;</span>
-                </div>
+                
               </div>
             ) : (
               <div style={grayDivStyle}>
-                <img
-                  className='absolute top-[5rem] right-[9rem] w-[6.5rem] h-[6.5rem]'
+                <div>
+                  <img
+                  className=' w-[6.5rem] h-[6.5rem]'
                   src={plusprofm}
                   alt="plusprofm"
                   style={plusIconStyle}
                   onClick={addNewFile}
-                />
+                  />
+                </div>
+                
               </div>
             )}
           </div>
         ) : (
-          <div className="absolute top-[3.5rem] right-[9rem] w-[6.5rem] h-[6.5rem] bg-gray-200 rounded-full">
+          <div className=" w-[6.5rem] h-[6.5rem] bg-gray-200 rounded-full">
             
           </div>
 
           
         )}
-              <div className={'flex justify-center mt-5 px-2 py-1 bg-black text-white ' }>
+              {/* <div className={'flex justify-center mt-5 px-2 py-1 bg-black text-white ' }>
                 ok
-              </div>
+              </div> */}
       </div>
       
     </section>

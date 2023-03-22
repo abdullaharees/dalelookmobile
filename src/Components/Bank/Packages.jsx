@@ -27,7 +27,7 @@ const [layout, setLayout] = useState(1)
             <div className='h-[45px] mt-[2rem] '>
                 <div className='flex w-full  justify-center'>
                     <div className='flex arabic justify-center'>
-                        <p className='text-xs font-bold text-right text-[#494949]'>هل تريد أن يبرز إعلانك أكثر؟ اختر واحدة من باقاتنا</p>
+                        <p className='text-xs font-bold text-center text-[#494949]'>هل تريد أن يبرز إعلانك أكثر؟ اختر واحدة من باقاتنا</p>
                     </div>
                 </div>
             </div>

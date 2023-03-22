@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="48" viewBox="0 0 56 48">
+  <g id="themail" transform="translate(-947.25 -742.837)">
+    <g id="themail-2" data-name="themail">
+      <g id="Rectangle_2525" data-name="Rectangle 2525" transform="translate(947.25 742.837)" fill="#f3f3f3" stroke="#707070" stroke-width="0.7">
+        <path d="M0,0H51a5,5,0,0,1,5,5V43a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M.35.35H51A4.65,4.65,0,0,1,55.65,5V43A4.65,4.65,0,0,1,51,47.65H.35a0,0,0,0,1,0,0V.35A0,0,0,0,1,.35.35Z" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_1407" data-name="Group 1407" transform="translate(966.285 761.383)">
+      <path id="Path_1126" data-name="Path 1126" d="M123.537,33.307l7.8-4.653L123.4,24v9.033C123.4,33.17,123.4,33.307,123.537,33.307Z" transform="translate(-123.4 -22.494)" fill="#0092a0"/>
+      <path id="Path_1127" data-name="Path 1127" d="M131.575,27.6,123.5,32.39a1.219,1.219,0,0,0,1.095.684h15.466a1.084,1.084,0,0,0,1.095-.684l-7.938-4.653-.821.411Z" transform="translate(-123.363 -21.167)" fill="#0092a0"/>
+      <path id="Path_1128" data-name="Path 1128" d="M138.564,33V24.1L130.9,28.617l7.664,4.517Z" transform="translate(-120.635 -22.458)" fill="#0092a0"/>
+      <path id="Path_1129" data-name="Path 1129" d="M124.632,22.9a1.227,1.227,0,0,0-1.232,1.232h0l9.033,5.338,8.9-5.2v-.137A1.227,1.227,0,0,0,140.1,22.9Z" transform="translate(-123.4 -22.9)" fill="#0092a0"/>
+    </g>
+  </g>
+</svg>

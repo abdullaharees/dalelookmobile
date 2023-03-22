@@ -4,6 +4,7 @@ import sharem from "../pictures/sharem.svg"
 import flag from "../pictures/flag.svg"
 import testimgest from "../pictures/testimgest.svg"
  
+import { Link, useNavigate, useParams, useLocation } from 'react-router-dom'
 
 const Profilesharediv = () => {
   return (
@@ -21,7 +22,9 @@ const Profilesharediv = () => {
 
         <div className='text-sm flex justify-end '>
           <p className='font-bold mr-[0.7rem] mt-3'>اسم المعلن</p>
-          <img className='w-[2.5rem]  mr-2.5 cursor-pointer fill-black' src={testimgest} alt="testimgest" />
+          <Link to='/profile'>
+            <img className='w-[2.5rem]  mr-2.5 cursor-pointer fill-black' src={testimgest} alt="testimgest" />
+          </Link>
         </div> 
       </div>
   )

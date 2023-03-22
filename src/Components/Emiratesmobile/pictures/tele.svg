@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="tele" transform="translate(-379 -1907)">
+    <circle id="Ellipse_96" data-name="Ellipse 96" cx="21" cy="21" r="21" transform="translate(379 1907)" fill="#fff"/>
+    <g id="telegram_icon" data-name="telegram icon" transform="translate(318.318 1876.328)">
+      <path id="Path_1103" data-name="Path 1103" d="M73.9,53.189l2.617,7.055L88.123,44.2Z" transform="translate(0.765 0.337)" fill="#0094d6"/>
+      <path id="Path_1104" data-name="Path 1104" d="M76.541,53.5,76.2,59.075l6.144-5.234Z" transform="translate(1.082 1.619)" fill="#007bb0"/>
+      <path id="Path_1105" data-name="Path 1105" d="M91.733,41.806,68.862,50.454a.711.711,0,0,0,0,1.365l5.917,1.934,13.427-8.648-10.582,9.9,8.306,6.258a1.5,1.5,0,0,0,2.389-.8L92.757,42.6A.764.764,0,0,0,91.733,41.806Z" transform="translate(0 0)" fill="#00b0e7"/>
+    </g>
+  </g>
+</svg>

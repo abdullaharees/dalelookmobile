@@ -5,7 +5,7 @@ import Footer from '../Footer'
 
 const Cardpage = () => {
   return (
-    <div className='pb-24'>
+    <div className='overflow-hidden pb-24'>
       <Backcard />
       <Cardone />
       <Footer />
