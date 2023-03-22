@@ -10,7 +10,7 @@ const Productprice = ({target, setTarget}) => {
         <div className='flex justify-between'>
             <div className='flex mt-[0.3rem]'>
                 <img className='w-[0.7rem]  ml-3' src={imgpath} alt="imgpath" />
-                <p className='text-white ml-1 text-[0.7rem] mt-2'>{target+1} - 10</p>
+                <p className='text-white ml-1 text-[0.7rem] mt-1.5'>{target+1} - 10</p>
             </div>
             <div className='flex mt-[0.3rem]'>
                 <p className='text-[1rem] text-[white] arabic mr-2 font-bold'>188,000 <span className='text-[0.8rem]'>د.إ</span></p>
@@ -22,12 +22,12 @@ const Productprice = ({target, setTarget}) => {
         </div>     
 
         <div className='flex justify-between'>
-            <div className='flex arabic mt-[0.rem]'>
+            <div className='flex arabic '>
                 <img className='w-[0.6rem] mr-2 ml-1' src={timew} alt="time" />
                 <p className='text-white ml-2 text-[0.7rem] mt-[0.3rem]'>11/3/2020</p>
                 <p className='text-white ml-3 text-[0.7rem] mt-[0.3rem]'>17:41</p>
             </div>
-            <div className='flex mt-[0.rem]'>
+            <div className='flex '>
                 <p className='text-[1rem] text-[white] arabic mr-2 '>عنوان الإعلان</p>
             </div>
         </div>   

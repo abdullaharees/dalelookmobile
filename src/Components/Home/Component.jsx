@@ -18,7 +18,7 @@ const Component = () => {
                       <img className='w-[100%] pt-[2px]' src={car} alt="car" />
                         <div className='absolute top-2 left-2 flex border w-[30px] rounded-sm bg-white'>
                           <img className='w-[10px] ml-1' src={cam} alt="cam" />
-                          <p className='text-[0.7rem] pl-1'>3</p>
+                          <p className='text-[0.7rem] pl-1 mt-[0.1rem]'>3</p>
                         </div>
                     </div>
 
