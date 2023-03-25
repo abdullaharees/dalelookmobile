@@ -9,11 +9,11 @@ import eyeone from "../pictures/eyeone.svg"
 
 import { Link, useNavigate } from 'react-router-dom'
 
-import {AiOutlineGooglePlus} from 'react-icons/ai'
+import {AiOutlineGoogle} from 'react-icons/ai'
 import {BsApple} from 'react-icons/bs'
 import {GrFacebookOption} from 'react-icons/gr'
 import Languagedroplogin from './Languagedroplogin';
-
+import Loginpopup from './Loginpopup'
 
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false)
@@ -36,13 +36,13 @@ const Login = () => {
                             <img className='w-[30px] mr-8 mt-1' src={usermail} alt="usermail" /> 
                         </span>
                         <input type="text" class="pr-16 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-[93%] focus:outline-none " placeholder='البريد الإلكتروني أو رقم الجوال*'/>
+                        text-[10px] w-[93%] focus:outline-none " placeholder='   رقم الجوال*'/>
 
                         
                     </div>
 
 
-                    <div class="relative w-[95%] max-w-[20rem] flex-wrap mr-5 items-stretch mb-1 arabic">
+                    {/* <div class="relative w-[95%] max-w-[20rem] flex-wrap mr-5 items-stretch mb-1 arabic">
                         <span class="z-10 absolute bg-transparent items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[0.7rem]  mr-8' src={userpassone} alt="userpassone" /> 
                         </span>
@@ -56,19 +56,19 @@ const Login = () => {
                         {showPassword === true && <span onClick={e => setShowPassword(false)} class="z-10 left-10  absolute bg-transparent text-base items-center justify-center w-7 pl-3 py-3">
                             <img className='w-[30px] mt-1' src={eyeone} alt="eyeone" /> 
                         </span>}
-                    </div>
+                    </div> */}
 
-                    <div className='ml-[10rem] flex arabic'>
+                    {/* <div className='ml-[10rem] flex arabic'>
                         <p className='text-xs text-right text-[#4F4386]'>فقدت  كلمة المرور</p>
-                    </div>
+                    </div> */}
                     
 
                 </div>
-
-                <div className='flex justify-center mt-5'>
+                <Loginpopup />
+                {/* <div className='flex justify-center mt-5'>
                 <text className='py-2 px-6 text-xs font-bold shadow-lg bg-[#0092A0] rounded-full text-white text-center cursor-pointer'>
-                تسجيل الدخول </text>
-                </div>
+                ارسال رمز التحقق </text>
+                </div> */}
                 
                 <div className=' mt-5 flex arabic'>
                         <p className='underline text-xs text-right text-[#4F4386]'>أو قم بتسجيل الدخول / التسجيل باستخدام</p>
@@ -80,7 +80,7 @@ const Login = () => {
                     </button>
 
                     <button className='bg-[#D9534F] px-3 py-3 flex rounded-md cursor-pointer'>
-                            <AiOutlineGooglePlus className='text-white cursor-pointer text-[1.3rem]'/>
+                            <AiOutlineGoogle className='text-white cursor-pointer text-[1.3rem]'/>
                     </button>
 
                     <button className='bg-[black] px-3 py-3 flex rounded-md cursor-pointer'>

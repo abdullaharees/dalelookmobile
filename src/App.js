@@ -16,16 +16,17 @@ import Homepackages from './Components/Bank/Homepackages'
 import Cardpage from './Components/Bank/Cardpage'
 import Homeproceed from './Components/Bank/Homeproceed'
 import Homeproduct from './Components/Realestate/Homeproduct'
-import Homeprofilem from './Components/Profile/Homeprofilem'
+import Homeprofile from './Components/Profile/Homeprofile'
 import Signup from './Components/Login/Signup'
 import Login from './Components/Login/Login'
 import Convo from './Components/Conversation/Convo'
 import Mainconvo from './Components/Conversation/Mainconvo'
 import ScrollToTop from './ScrollToTop'
 import Homepageem from './Components/Emiratesmobile/Homeem/Homepageem'
-import Homeprofileem from './Components/Emiratesmobile/Profileem/Homeprofilem'
+import Homeprofileem from './Components/Emiratesmobile/Profileem/Homeprofileem'
 import Categorypageem from './Components/Emiratesmobile/Homeem/Categorypageem'
 import Homeproceedem from './Components/Emiratesmobile/Bank/Homeproceedem'
+import Homeproductem from './Components/Emiratesmobile/Product/Homeproductem'
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
             <Route path='/cardpage' element={<Cardpage />} />
             <Route path='/proceed' element={<Homeproceed />} />
             <Route path='/product' element={<Homeproduct />} />
-            <Route path='/profile' element={<Homeprofilem />} />
+            <Route path='/profile' element={<Homeprofile />} />
             <Route path='/convo' element={<Convo />} />
             <Route path='/mainconvo' element={<Mainconvo />} />
 
@@ -51,7 +52,7 @@ function App() {
             <Route path='/homeem' element={<Homepageem />} />
             <Route path='/profileem' element={<Homeprofileem />} />
             <Route path='/categoryem' element={<Categorypageem />} />
-            {/* <Route path='/productem' element={<Homeproductem />} /> */}
+            <Route path='/productem' element={<Homeproductem />} />
             <Route path='/proceedem' element={<Homeproceedem />} />
 
         </Routes>

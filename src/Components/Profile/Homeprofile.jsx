@@ -5,7 +5,7 @@ import Taskbarprof from './Taskbarprof'
 import Itemprof from './Itemprof'
 import Footer from '../Footer'
 
-const Homeprofilem = () => {
+const Homeprofile = () => {
   const [edit, setEdit] = useState(false)
   const [layout, setLayout] = useState(1)
 
@@ -19,4 +19,4 @@ const Homeprofilem = () => {
   )
 }
 
-export default Homeprofilem
+export default Homeprofile

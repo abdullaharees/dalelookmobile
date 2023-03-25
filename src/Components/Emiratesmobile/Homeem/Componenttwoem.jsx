@@ -36,9 +36,7 @@ const Componenttwoem = () => {
                         </p>
                         </div>
                         <div className='flex text-[#5E5D5D] arabic'>
-                          <img className='w-[0.55rem] mr-2 ml-1' src={time} alt="time" />
-                          <p className='text-[0.65rem] font-bold '>اليوم</p>
-                          <p className='text-[0.65rem] font-bold mr-1'>09.50</p>
+                          <p className='text-[0.65rem] font-bold mr-2'>الفئة , الفرع , الفرع</p>
                         </div>
                         <div className='flex text-[#5E5D5D] arabic'>
                           <img className='w-[0.5rem] mr-2 ml-1' src={location} alt="location" />

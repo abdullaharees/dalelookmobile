@@ -11,7 +11,7 @@ import Logo from "../pictures/mainlogonav.svg";
 
 import { Link, useNavigate } from 'react-router-dom'
 
-import {AiOutlineGooglePlus} from 'react-icons/ai'
+import {AiOutlineGoogle} from 'react-icons/ai'
 import {AiFillApple} from 'react-icons/ai'
 import {GrFacebookOption} from 'react-icons/gr'
 
@@ -36,7 +36,7 @@ const Signup = () => {
                     </div>
 
                     <div className='bg-[#D9534F] px-10 py-[0.4rem] flex rounded-md'>
-                        <AiOutlineGooglePlus className='text-white cursor-pointer mr-1' size={22}/>
+                        <AiOutlineGoogle className='text-white cursor-pointer mr-1' size={22}/>
                         <p className='font-bold text-sm text-white mt-0.5'>Google</p>
                         <p className='font-bold text-sm text-white ml-2 mt-0.5'>اشترك بواسطة</p>
                     </div>

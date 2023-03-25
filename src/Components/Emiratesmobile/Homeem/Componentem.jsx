@@ -24,31 +24,28 @@ const Componentem = () => {
 
                     <p className='text-[#424242] font-bold text-[0.8rem] arabic pr-2 mt-[0.1rem]'>اسم الشركة</p>
                     
-                    <p className='text-[0.8rem] text-[#333333] arabic mr-2 font-bold'>600,000 <span className='text-[0.8rem]'>د.إ</span></p>
+                    <p className='text-[0.6rem] arabic mr-2'>رقم الجوال</p>
+                    <p className='text-[0.6rem] arabic mr-2'>رقم الهاتف الثابت</p>
                     <p className='text-[0.6rem] arabic mr-2'>الفئة , الفرع , الفرع</p>
 
                     <div className='flex justify-center'>
-                      <div className='content-between border-b-[2.3px] w-[95%] mt-1 mb-[0.2rem]'></div>
+                      <div className='content-between border-b-[2.3px] w-[95%] mt-1 mb-[0.1rem]'></div>
                     </div>
 
                     <div>
 
                       <div className='relative'>
-                        <div className='absolute top-1 left-2 border rounded-full p-[0.2rem]'>
+                        <div className='absolute top-[0.1rem] left-2 border rounded-full p-[0.2rem]'>
                           <p onClick={() => like.includes(1) ? setLike(like.filter(item => item !== 1)) : setLike(prev => [...prev , 1])}>
                             {like.includes(1) && <FaHeart style={{color: 'red'}} className='text-gray-300 cursor-pointer'/>}
                             {!like.includes(1) && <FaRegHeart className=' text-gray-300 cursor-pointer ' />}
                           </p>
                         </div>
 
-                        <div className='flex text-[#5E5D5D]  arabic'>
-                          <img className='w-[0.55rem] mr-2 ml-1' src={time} alt="time" />
-                          <p className='text-[0.65rem] font-bold '>اليوم</p>
-                          <p className='text-[0.65rem] font-bold mr-1'>09.50</p>
-                        </div>
+                       
 
-                        <div className='flex text-[#5E5D5D] arabic'>
-                          <img className='text-[0.5rem] mr-2 ml-1' src={location} alt="location" />
+                        <div className='flex text-[#5E5D5D] arabic mt-[0.1rem]'>
+                          <img className='text-[0.5rem] mr-2 ml-1 mt-[0.2rem]' src={location} alt="location" />
                           <p className='text-[0.6rem] font-bold pt-1'>دمشق , الميدان , المنصور</p>
                         </div> 
                       </div>

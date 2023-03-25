@@ -22,7 +22,7 @@ const Boxcompem = () => {
   return (
     <div>
 
-        <div className='flex items-center justify-center w-full text-lg text-[#333333] mb-3 mt-1 arabic'>
+        <div className='flex items-center justify-center w-full text-lg text-[#333333] mb-3 mt-2 arabic'>
             <p>التصفح عن طريق </p>
             <p className='font-bold mr-2'>الفئة</p>
         </div>

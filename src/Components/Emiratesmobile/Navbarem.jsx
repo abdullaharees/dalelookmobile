@@ -53,8 +53,8 @@ console.log(location.pathname);
 
             {/* Left Side */}
             <div className='flex ml-4 mr-2'>
-                <Link to='/'>
-                    <img className='max-w-[10rem] w-[70%] py-1' src={Logoem} alt="Company Logo" />
+                <Link to='/homeem'>
+                    <img className='max-w-[10rem] w-[85%] py-1' src={Logoem} alt="Company Logo" />
                 </Link> 
             </div>
 

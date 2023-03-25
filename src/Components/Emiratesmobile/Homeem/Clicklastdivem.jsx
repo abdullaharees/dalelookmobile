@@ -16,43 +16,59 @@ const [like, setLike] = useState([]);
 
 
             <div className='flex justify-center flex-nowrap mt-1 space-x-2'>
-                <div className='flex justify-center w-[50%]'>
-                        <Component />
-                </div>
+                        <div className='flex justify-center w-[50%]'>
+                                <Link to='/productem' >
+                                        <Component />
+                                </Link>
+                        </div>
 
-                <div className=' flex justify-center  w-[50%]'>
-                        <Component />
-                </div>
+                        <div className=' flex justify-center  w-[50%]'>
+                                <Link to='/productem' >
+                                        <Component />
+                                </Link>
+                        </div>
             </div>
 
             <div className='flex justify-center flex-nowrap mt-1 space-x-2'>
-                <div className='flex justify-center w-[50%]'>
-                        <Component />
-                </div>
-
-                <div className=' flex justify-center  w-[50%]'>
-                        <Component />
-                </div>
+                        <div className='flex justify-center w-[50%]'>
+                                <Link to='/productem' >
+                                        <Component />
+                                </Link>
+                        </div>
+                
+                        <div className=' flex justify-center  w-[50%]'>
+                                <Link to='/productem' >
+                                        <Component />
+                                </Link>
+                        </div>
             </div>
 
             <div className='flex justify-center flex-nowrap mt-1 space-x-2'>
-                <div className='flex justify-center w-[50%]'>
-                        <Component />
-                </div>
-
-                <div className=' flex justify-center  w-[50%]'>
-                        <Component />
-                </div>
+                        <div className='flex justify-center w-[50%]'>
+                                <Link to='/productem' >
+                                        <Component />
+                                </Link>
+                        </div>
+                
+                        <div className=' flex justify-center  w-[50%]'>
+                                <Link to='/productem' >
+                                        <Component />
+                                </Link>
+                        </div>
             </div>
             
             <div className='flex justify-center flex-nowrap mt-1 space-x-2'>
-                <div className='flex justify-center w-[50%]'>
-                        <Component />
-                </div>
-
-                <div className=' flex justify-center  w-[50%]'>
-                        <Component />
-                </div>
+                        <div className='flex justify-center w-[50%]'>
+                                <Link to='/productem' >
+                                        <Component />
+                                </Link>
+                        </div>
+                
+                        <div className=' flex justify-center  w-[50%]'>
+                                <Link to='/productem' >
+                                        <Component />
+                                </Link>
+                        </div>
             </div>
 
         </div>

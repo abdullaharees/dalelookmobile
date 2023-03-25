@@ -36,7 +36,7 @@ export default function Languagedroplogin() {
                 leaveFrom="transform opacity-100 scale-100"
                 leaveTo="transform opacity-0 scale-95"
             >
-                <Menu.Items className="absolute right-[16.5rem] w-[5.5rem] origin-top-right bg-white rounded-sm shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none arabic">
+                <Menu.Items className="absolute right-[12rem] w-[5.5rem] origin-top-right bg-white rounded-sm shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none arabic">
                     <div className="arabic text-right ">
                         <Menu.Item>
                             {({ active }) => (
