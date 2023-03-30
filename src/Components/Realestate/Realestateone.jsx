@@ -24,7 +24,7 @@ const Realestateone = () => {
         <Profilesharediv />
         <Productprice target={target} setTarget={setTarget} />
         <div className='arabic justify-center items-center'>
-          <p className='text-[#0092A0] text-center font-bold mt-2'> تفاصيل</p>
+          <p className='text-[#0092A0] text-center font-bold mt-2'>  تفاصيل الإعلان</p>
           <div className='flex flex-col justify-center items-center'>
               <div className=' bg-white w-[95%]  h-[30px] mt-2  rounded-md flex justify-between arabic shadow-[rgba(0,_0,_0,_0.2)_0px_2px_5px]'>
                 <p className='text-[0.9rem] text-right font mb-2 mr-2 font-bold mt-1 text-[#5B5A5A]'>المعلومات الأساسية</p>
@@ -75,7 +75,7 @@ const Realestateone = () => {
           <div className='bg-white mt-1 h-5'></div>
 
         </div>
-        <div className='flex items-center justify-center w-full mt-1 mb-5 arabic fixed bottom-20'>
+        <div className='flex items-center justify-center w-full mt-1 mb-5 arabic fixed bottom-3'>
                   <button className=' bg-[#CA0000] w-[30%]  h-[27px] mt-8 ml-2 rounded-md flex justify-center items-center arabic cursor-pointer'>
                       <p className='text-[0.65rem]  text-right font mb-2 font-bold  mt-2 text-white'>محادثة</p>
                       <img className='w-3 mr-2  ml-1  fill-black' src={converwhitem} alt="converwhitem" />

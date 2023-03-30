@@ -14,6 +14,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import {AiOutlineGoogle} from 'react-icons/ai'
 import {AiFillApple} from 'react-icons/ai'
 import {GrFacebookOption} from 'react-icons/gr'
+import {IoIosMail} from 'react-icons/io'
 
 
 const Signup = () => {
@@ -27,33 +28,41 @@ const Signup = () => {
                 </div>
 
 
-                <div className='pt-2 space-y-2'>
+                <div className='pt-2 space-y-2 justify-center'>
 
-                    <div className='bg-[#3F5C98] px-10 py-[0.4rem] flex rounded-md'>
+                    <div className='bg-[#3F5C98] px-10 py-[0.4rem] flex rounded-md justify-center'>
                         <GrFacebookOption className='text-white cursor-pointer mr-1' size={20}/>
                         <p className='font-bold text-sm text-white mt-0.5'>Facebook</p>
                         <p className='font-bold text-sm text-white ml-2 mt-0.5'>اشترك بواسطة</p>
                     </div>
 
-                    <div className='bg-[#D9534F] px-10 py-[0.4rem] flex rounded-md'>
+                    <div className='bg-[#D9534F] px-10 py-[0.4rem] flex rounded-md justify-center'>
                         <AiOutlineGoogle className='text-white cursor-pointer mr-1' size={22}/>
                         <p className='font-bold text-sm text-white mt-0.5'>Google</p>
                         <p className='font-bold text-sm text-white ml-2 mt-0.5'>اشترك بواسطة</p>
                     </div>
 
-                    <div className='bg-black px-10 py-[0.4rem] flex rounded-md'>
+                    <div className='bg-black px-10 py-[0.4rem] flex rounded-md justify-center'>
                         <AiFillApple className='text-white cursor-pointer mr-1' size={22}/>
                         <p className='font-bold text-sm text-white mt-0.5'>Apple</p>
                         <p className='font-bold text-sm text-white ml-2 mt-0.5'>اشترك بواسطة</p>
                     </div>        
 
+                    <div className='bg-[#4f88d9] px-10 py-[0.4rem] flex rounded-md justify-center'>
+                        <IoIosMail className='text-white cursor-pointer mr-1' size={22}/>
+                        <p className='font-bold text-sm text-white mt-0.5'>Mail</p>
+                        <div className='justify-end'>
+                            <p className='font-bold text-sm text-white ml-2 mt-0.5'>اشترك بواسطة</p>   
+                        </div>
+                    </div>   
+                    
                 </div>
                 
 
                 <div className='relative pt-4 ml-3 border-b-[2px] w-[80%] mt-3'></div>
 
 
-                <div className='absolute top-[19rem] bg-[#F2F2F2] py-1 px-3 rounded-md'>
+                <div className='absolute top-[21.7rem] bg-[#F2F2F2] py-1 px-3 rounded-md'>
                     <div className=' text-[#707070] font-bold'>أو</div>
                 </div>
 
@@ -64,7 +73,7 @@ const Signup = () => {
                             <img className='w-[35px] mr-8' src={userlogin} alt="userlogin" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#29292a] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-[93%] focus:outline-none " placeholder='الإسم الكامل*'/>
+                        text-[11.5px] w-[93%] focus:outline-none " placeholder='الإسم الكامل*'/>
                     </div>
                     
                     <div class=" w-[95%] mr-5 max-w-[20rem] flex-wrap items-stretch mb-3 arabic">
@@ -72,7 +81,7 @@ const Signup = () => {
                             <img className='w-[30px] mr-8 mt-1' src={usermail} alt="usermail" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-[93%] focus:outline-none " placeholder=' البريد الإلكتروني*'/>
+                        text-[11.5px] w-[93%] focus:outline-none " placeholder=' البريد الإلكتروني*'/>
                     </div>
 
                     <div class=" w-[95%] mr-5 max-w-[20rem] flex-wrap items-stretch mb-3 arabic">
@@ -80,7 +89,7 @@ const Signup = () => {
                             <img className='w-[0.8rem] mr-8 mt-0.5' src={usernumber} alt="usernumber" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-[93%] focus:outline-none " placeholder=' رقم الجوال*'/>
+                        text-[11.5px] w-[93%] focus:outline-none " placeholder=' رقم الجوال*'/>
                     </div>
 
                     <div class=" w-[95%] mr-5 max-w-[20rem] flex-wrap items-stretch mb-3 arabic">
@@ -88,7 +97,7 @@ const Signup = () => {
                             <img className='w-[0.7rem]  mr-8' src={userpassone} alt="userpassone" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-[93%] focus:outline-none " placeholder=' كلمة المرور*'/>
+                        text-[11.5px] w-[93%] focus:outline-none " placeholder=' كلمة المرور*'/>
                     </div>
 
                     <div class=" w-[95%] mr-5 max-w-[20rem] flex-wrap items-stretch mb-3 arabic">
@@ -96,7 +105,7 @@ const Signup = () => {
                             <img className='w-[0.7rem] mr-8' src={userpasstwo} alt="userpasstwo" /> 
                         </span>
                         <input type="text" class="px-14 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px]  w-[93%] focus:outline-none " placeholder='تأكيد كلمة المرور*'/>
+                        text-[11.5px]  w-[93%] focus:outline-none " placeholder='تأكيد كلمة المرور*'/>
                     </div>
 
                 </div>

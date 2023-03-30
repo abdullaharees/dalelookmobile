@@ -12,6 +12,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import {AiOutlineGoogle} from 'react-icons/ai'
 import {BsApple} from 'react-icons/bs'
 import {GrFacebookOption} from 'react-icons/gr'
+import {IoIosMail} from 'react-icons/io'
+
 import Languagedroplogin from './Languagedroplogin';
 import Loginpopup from './Loginpopup'
 
@@ -36,7 +38,7 @@ const Login = () => {
                             <img className='w-[30px] mr-8 mt-1' src={usermail} alt="usermail" /> 
                         </span>
                         <input type="text" class="pr-16 py-3 text-[#212121] font-bold relative bg-[#F2F3F7] rounded-full border-[1px]
-                        text-[10px] w-[93%] focus:outline-none " placeholder='   رقم الجوال*'/>
+                        text-[12.5px] w-[93%] focus:outline-none " placeholder='   رقم الجوال*'/>
 
                         
                     </div>
@@ -86,6 +88,8 @@ const Login = () => {
                     <button className='bg-[black] px-3 py-3 flex rounded-md cursor-pointer'>
                             <BsApple className='text-white cursor-point text-[1.3rem]'/>
                     </button>
+
+                    
                 </div>
 
                 
