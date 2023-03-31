@@ -89,7 +89,9 @@ const Login = () => {
                             <BsApple className='text-white cursor-point text-[1.3rem]'/>
                     </button>
 
-                    
+                    <button className='bg-[#4f88d9] px-3 py-3 flex rounded-md cursor-pointer'>
+                        <IoIosMail className='text-white cursor-pointer text-[1.3rem]'/>
+                    </button>
                 </div>
 
                 

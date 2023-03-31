@@ -17,7 +17,7 @@ const Taskbarproductem = ({layout, setLayout}) => {
         <div className='flex flex-col justify-center items-center'>
           <div className='w-[100%] relative top-[]'>
             {/* <img className=' w-[100%] cursor-pointer' src={taskm} alt="taskm" /> */}
-            <div className='w-full bg-[#FFCC00] h-[10rem] rounded-b-[3rem]'></div>
+            <div className='w-full bg-[#FAD606] h-[10rem] rounded-b-[3rem]'></div>
            <div className='absolute top-[38%] left-[50%] -translate-x-1/2 -translate-y-1/2'>
             <Addpicprodem />   
             <p className="font-bold flex absolute  text-[1.1rem] text-[#333333]" >اسم الحساب</p>

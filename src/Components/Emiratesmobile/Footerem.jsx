@@ -16,7 +16,7 @@ const Footerem = () => {
         <div className='fixed w-full z-[999] bottom-0 drop-shadow-xl'>
             <img className='w-full' src={navbarmobilem} alt="navbarmobilem" />
         </div> 
-        <div className='z-[1000] bg-[#FFCC00] h-[4rem]  flex justify-between fixed bottom-0 w-full'>
+        <div className='z-[1000] bg-[#FAD606] h-[4rem]  flex justify-between fixed bottom-0 w-full'>
             <Link to='/homeem'>
                 <div className='ml-2 mt-1'>
                     <img className=' ml-1' src={homepgfoot} alt="homepgfoot" />

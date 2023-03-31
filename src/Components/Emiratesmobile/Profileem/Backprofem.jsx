@@ -7,7 +7,7 @@ import editblueem from "../pictures/editblueem.svg"
 
 const Backprofem = ({edit, setEdit}) => {
   return (
-    <div className='bg-[#FFCC00] h-[2.6rem] flex justify-between'>
+    <div className='bg-[#FAD606] h-[2.6rem] flex justify-between'>
             <div className='flex'>
               <Link to='/homeem'>
                 <AiOutlineArrowLeft className='text-[#333333] text-[1.3rem] mt-3 ml-2'/>

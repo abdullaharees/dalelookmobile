@@ -9,7 +9,7 @@ export default function Popupcloseem() {
     <>
       <button
         className="cursor-pointer w-[8rem]  mt-6 rounded-full flex justify-center shadow-[rgba(0,_0,_0,_0.18)_0px_2px_5px] 
-        text-sm font-bold bg-[#FFCC00] text-[#333333] text-center py-1 px-5 border-[2px] border-[#FFCC00]
+        text-sm font-bold bg-[#FAD606] text-[#333333] text-center py-1 px-5 border-[2px] border-[#FAD606]
           mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}
@@ -26,7 +26,7 @@ export default function Popupcloseem() {
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full  bg-white outline-none focus:outline-none">
                 {/*header*/}
-                <div className=" text-center items-center p-1 border-b border-solid border-slate-200 rounded-t bg-[#FFCC00]">
+                <div className=" text-center items-center p-1 border-b border-solid border-slate-200 rounded-t bg-[#FAD606]">
                   <h3 className="text-xl font-semibold text-center text-[#333333] ">
                   تنويه                  
                   </h3>
@@ -48,7 +48,7 @@ export default function Popupcloseem() {
                   
                   <Link to="/homeem">
                     <button
-                      className="bg-[#FFCC00] text-[#333333] font-bold uppercase text-sm py-1 px-10 rounded-full  mb-1 "
+                      className="bg-[#FAD606] text-[#333333] font-bold uppercase text-sm py-1 px-10 rounded-full  mb-1 "
                       type="button"
                       // onClick={() => setShowModal(false)}
                     >

@@ -16,7 +16,7 @@ const Componenttwo = () => {
 
                 <div className='flex arabic'>
          
-                    <img className='w-[50%] mr-1 mt-1' src={villa} alt="car" />
+                    <img className='w-[45%] mr-1 mt-1' src={villa} alt="car" />
                   
                   <div className='w-[50%]'>
                     <p className='text-[#2D4373] font-bold text-[0.8rem] arabic pr-1 mb-3 pt-1'>العنوان الرئيسي للإعلان</p>

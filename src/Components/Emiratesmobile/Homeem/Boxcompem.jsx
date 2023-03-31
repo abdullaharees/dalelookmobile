@@ -34,7 +34,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3 '>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <FaCarAlt className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[2rem]'/>
                         </div>
@@ -51,7 +51,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <AiFillHome className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -68,7 +68,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <SiHomeassistantcommunitystore className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -85,7 +85,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <FaCouch className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -104,7 +104,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3 '>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <BsCameraFill className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[2rem]'/>
                         </div>
@@ -121,7 +121,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <MdComputer className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -138,7 +138,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <FaTools className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -155,7 +155,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <GiWashingMachine className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -176,7 +176,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3 '>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <CgGym className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[2rem]'/>
                         </div>
@@ -193,7 +193,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <GiCookingPot className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -210,7 +210,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <BsLightbulbFill className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -227,7 +227,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <BsSpeakerFill className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -246,7 +246,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3 '>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <FaCarAlt className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[2rem]'/>
                         </div>
@@ -263,7 +263,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <AiFillHome className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -280,7 +280,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <SiHomeassistantcommunitystore className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
@@ -297,7 +297,7 @@ const Boxcompem = () => {
                 <Link to='/categoryem'>
                     <div className='py-3'>
                         <div className="py-[2rem] relative w-[100%] rounded-lg cursor-pointer 
-                        bg-[#FFCC00] mb-1">
+                        bg-[#FAD606] mb-1">
                             <FaCouch className='w-[80%] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
                               text-[white] text-[1.8rem]'/>
                         </div>
