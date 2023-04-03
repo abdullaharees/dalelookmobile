@@ -48,7 +48,7 @@ return (
     </div>
 
 
-    <div className='bg-white flex justify-between h-[17.5rem] w-full px-[1rem] rounded-b-sm object-cover'>
+    <div className='bg-white flex justify-between h-[18rem] w-full px-[1rem] rounded-b-sm object-cover'>
 
         <div className='flex justify-center flex-nowrap w-full h-full'>
 
