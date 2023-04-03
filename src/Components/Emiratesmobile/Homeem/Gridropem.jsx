@@ -8,7 +8,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
 }
 
-export default function Gridropem() {
+export default function Gridropem({activeItem, setActiveItem}) {
     return (
         <Menu as="div" className="relative inline-block text-left z-20">
             <div className="arabic">
@@ -41,42 +41,31 @@ export default function Gridropem() {
                                 </a>
                             )}
                         </Menu.Item>
+                        <Menu.Item>
+                            {({ active }) => (
+                            <div onClick={() => setActiveItem('item1')} className="border-b-[1px] border-[#9393935b] py-1">
+                                <a
+                                    className={`text-sm mr-4 ${active && 'text-black'}`}
+                                    >
+                                    جريد
+                                </a>
+                                <input type="radio" id="html" name="fav_language" value="HTML" className="mr-[4.4rem] bg-[#FFCC00]"/>
+                            </div>
+                            )}
+                        </Menu.Item>
+                        <Menu.Item>
+                            {({ active }) => (
+                            <div onClick={() => setActiveItem('item2')} className="border-b-[1px] border-[#9393935b] py-1">
+                                <a
+                                    className={`text-sm mr-4 ${active && 'text-black'}`}
+                                    >
+                                    قائمة
+                                </a>
+                                <input type="radio" id="html" name="fav_language" value="HTML" className="mr-[4rem] bg-[#FFCC00]"/>
+                            </div>
+                            )}
+                        </Menu.Item>
                         
-                        <Menu.Item>
-                            {({ active }) => (
-                                <a
-                                    href="#"
-                                    className={classNames(
-                                        active
-                                            ? "bg-gray-100 text-[#333333]"
-                                            : "text-black",
-                                        "block px-4 py-2 text-sm border-b-[1px] border-[#9393935b]"
-                                    )}
-                                >
-                                     جريد
-                            <input type="radio" id="html" name="fav_language" value="HTML" className="mr-[4.4rem]"/>
-
-                                </a>
-                            )}
-                        </Menu.Item>
-                        <Menu.Item>
-                            {({ active }) => (
-                                <a
-                                href="#"
-                                className={classNames(
-                                    active
-                                        ? "bg-gray-100 text-[#333333]"
-                                        : "text-black",
-                                    "block px-4 py-2 text-sm border-b-[1px] border-[#9393935b]"
-                                )}
-                            >
-                                       قائمة
-                            <input type="radio" id="html" name="fav_language" value="HTML" className="mr-[3.9rem]"/>
-
-
-                                </a>
-                            )}
-                        </Menu.Item>
                         
                     </div>
                 </Menu.Items>

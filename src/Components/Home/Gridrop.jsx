@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
 
 import gridm from "../pictures/gridm.svg"
@@ -8,13 +8,14 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
 }
 
-export default function Gridrop() {
+export default function Gridrop({activeItem, setActiveItem}) {
+
     return (
         <Menu as="div" className="relative inline-block text-left z-20">
             <div className="arabic">
                 <Menu.Button className='flex flex-col justify-center items-center'>
                     <img className='w-[1.1rem] py-1' src={gridm} alt="Company Logo" />
-                    <p className='text-[white] mt-[0.15rem] text-[0.6rem]'>عرض الإعلانات</p> 
+                    <p className='text-[white] mt-[0.15rem] text-[0.6rem]'>عرض الإعلانات</p>
                 </Menu.Button>
             </div>
 
@@ -31,71 +32,62 @@ export default function Gridrop() {
                     <div className="py-1 arabic text-right">
                         <Menu.Item>
                             {({ active }) => (
+                                <div>
                                 <a
-                                    href="#"
                                     className={classNames(
                                             "bg-[#0092A0] text-white font-semibold block px-4 py-2 text-sm"
                                     )}
                                 >
                                      عرض الإعلانات
                                 </a>
+                                    </div>
+                            )}
+
+                        </Menu.Item>
+                        <div>
+
+                        <Menu.Item>
+                            {({ active }) => (
+                            <div onClick={() => setActiveItem('item1')} className="border-b-[1px] border-[#9393935b] py-1">
+                                <a
+                                    className={`text-sm mr-4 ${active && 'text-black'}`}
+                                    >
+                                    معرض
+                                </a>
+                                <input type="radio" id="html" name="fav_language" value="HTML"  className={` mr-[3rem] ${activeItem === 'item1' && 'bg-[#0092A0]'}`}/>
+                            </div>
                             )}
                         </Menu.Item>
                         <Menu.Item>
                             {({ active }) => (
+                            <div onClick={() => setActiveItem('item2')} className="border-b-[1px] border-[#9393935b] py-1">
                                 <a
-                                href="#"
-                                className={classNames(
-                                    active
-                                        ? "bg-gray-100 text-[#0092A0]"
-                                        : "text-black",
-                                    "block px-4 py-2 text-sm border-b-[1px] border-[#9393935b]"
-                                )}
-                            >
-
-                            معرض        
-                            <input type="radio" id="html" name="fav_language" value="HTML" className="mr-[3.4rem]"/>
+                                    className={`text-sm mr-4 ${active && 'text-black'}`}
+                                    >
+                                 جريد
 
                                 </a>
-                                
+                                <input type="radio" id="html" name="fav_language" value="HTML"  className={` mr-[4rem] ${activeItem === 'item1' && 'bg-[#0092A0]'}`}/>
+                            </div>
                             )}
                         </Menu.Item>
                         <Menu.Item>
                             {({ active }) => (
+                            <div onClick={() => setActiveItem('item3')} className="border-b-[1px] border-[#9393935b] py-1">
                                 <a
-                                    href="#"
-                                    className={classNames(
-                                        active
-                                            ? "bg-gray-100 text-[#0092A0]"
-                                            : "text-black",
-                                        "block px-4 py-2 text-sm border-b-[1px] border-[#9393935b]"
-                                    )}
-                                >
-                                     جريد
-                            <input type="radio" id="html" name="fav_language" value="HTML" className="mr-[4.4rem]"/>
+                                    className={`text-sm mr-4 ${active && 'text-black'}`}
+                                    >
+                               قائمة
 
                                 </a>
+                                <input type="radio" id="html" name="fav_language" value="HTML"  className={` mr-[3.55rem] ${activeItem === 'item1' && 'bg-[#0092A0]'}`}/>
+                            </div>
                             )}
                         </Menu.Item>
-                        <Menu.Item>
-                            {({ active }) => (
-                                <a
-                                href="#"
-                                className={classNames(
-                                    active
-                                        ? "bg-gray-100 text-[#0092A0]"
-                                        : "text-black",
-                                    "block px-4 py-2 text-sm border-b-[1px] border-[#9393935b]"
-                                )}
-                            >
-                                       قائمة
-                            <input type="radio" id="html" name="fav_language" value="HTML" className="mr-[3.9rem]"/>
+
+                        </div>
 
 
-                                </a>
-                            )}
-                        </Menu.Item>
-                        
                     </div>
                 </Menu.Items>
             </Transition>

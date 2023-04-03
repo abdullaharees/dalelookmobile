@@ -13,10 +13,10 @@ import { Link, useNavigate, useParams, useLocation } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='relative '>
-        <div className='fixed w-full z-[999] bottom-0 drop-shadow-xl'>
+        <div className='fixed w-full z-[10005] bottom-0 drop-shadow-xl'>
             <img className='w-full' src={navbarmobile} alt="navbarmobile" />
         </div> 
-        <div className='z-[1000] bg-[#F7F7F7] h-[4rem]  flex justify-between fixed bottom-0 w-full'>
+        <div className='z-[10006] bg-[#F7F7F7] h-[4rem]  flex justify-between fixed bottom-0 w-full'>
             <Link to='/'>
                 <div className='ml-2 mt-1'>
                     <img className=' ml-1' src={homepgfoot} alt="homepgfoot" />
@@ -33,7 +33,7 @@ const Footer = () => {
 
                 <div className='relative'>
                     <Link to='/proceed'>
-                        <div className='absolute -right-[26px] bottom-[24%]'>
+                        <div className='absolute -right-[28px] bottom-[25%]'>
                             <img className='min-w-[55px]' src={addfoot} alt="addfoot" />
                             <p className='text-[0.6rem] text-center mt-0.5'>أضف إعلانك</p>    
                         </div>

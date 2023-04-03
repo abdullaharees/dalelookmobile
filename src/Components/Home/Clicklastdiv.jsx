@@ -12,10 +12,9 @@ const [like, setLike] = useState([]);
 
             
             
-            <p className='text-xl text-[#0092A0] text-right font-bold mr-3'>أحدث الإعلانات  </p>
 
 
-            <div className='flex justify-center flex-nowrap mt-1 space-x-2'>
+            <div className='flex justify-center flex-nowrap mt-3 space-x-2'>
                 <div className='flex justify-center w-[50%]'>
                         <Component />
                 </div>

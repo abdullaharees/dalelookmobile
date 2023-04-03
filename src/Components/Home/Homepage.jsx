@@ -14,6 +14,8 @@ const Homepage = () => {
         <Sliders />
         <Boxcomp />
         <Slidermiddiv />
+        <p className='text-xl text-[#0092A0] text-right font-bold mr-3'>أحدث الإعلانات  </p>
+
         <Clicklastdiv />
 
         <Footer />

@@ -131,8 +131,8 @@ export default function Estateslider({target, setTarget})  {
       </div>
       <div className="flex justify-between mt-1 w-[100%] space-x-1 overflow-scroll scrollbar-hide">
           <img onClick={e => setTarget(0)} className={`min-w-[20%] object-cover ${target === 0 ? ' border-[3px] opacity-[1]' : 'opacity-80'}`} src="https://swiperjs.com/demos/images/nature-1.jpg" />
-          <img onClick={e => setTarget(2)} className={`min-w-[20%] object-cover ${target === 2 ? ' border-[3px] opacity-[1]' : 'opacity-80'}`} src="https://swiperjs.com/demos/images/nature-3.jpg" />
           <img onClick={e => setTarget(1)} className={`min-w-[20%] object-cover ${target === 1 ? ' border-[3px] opacity-[1]' : 'opacity-80'}`} src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img onClick={e => setTarget(2)} className={`min-w-[20%] object-cover ${target === 2 ? ' border-[3px] opacity-[1]' : 'opacity-80'}`} src="https://swiperjs.com/demos/images/nature-3.jpg" />
           <img onClick={e => setTarget(3)} className={`min-w-[20%] object-cover ${target === 3 ? ' border-[3px] opacity-[1]' : 'opacity-80'}`} src="https://swiperjs.com/demos/images/nature-4.jpg" />
           <img onClick={e => setTarget(4)} className={`min-w-[20%] object-cover ${target === 4 ? ' border-[3px] opacity-[1]' : 'opacity-80'}`} src="https://swiperjs.com/demos/images/nature-5.jpg" />
           <img onClick={e => setTarget(5)} className={`min-w-[20%] object-cover ${target === 5 ? ' border-[3px] opacity-[1]' : 'opacity-80'}`} src="https://swiperjs.com/demos/images/nature-6.jpg" />

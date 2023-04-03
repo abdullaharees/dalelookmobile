@@ -8,7 +8,7 @@ import Sortem from './Sortem'
 import Filterswipetwoem from './Filterswipetwoem'
 
 
-const Catbarem = () => {
+const Catbarem = ({activeItem, setActiveItem}) => {
 const [nav, setNav] = useState(false)
 
   return (
@@ -23,7 +23,7 @@ const [nav, setNav] = useState(false)
               </div>
         
               <div className='bg-[#FAD606] w-[50%] flex justify-center'>
-                <Gridropem className='z-20 ' />
+              <Gridropem activeItem={activeItem} setActiveItem={setActiveItem}  className='z-20 ' />
               </div>
 
               

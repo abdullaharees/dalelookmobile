@@ -14,12 +14,9 @@ const Catclicklastdivtwoem = () => {
   return (
 
 
-    <div className='mt-2 flex-col justify-start flex-nowrap xl:flex-wrap w-full'>
+    <div className=' flex-col justify-start flex-nowrap xl:flex-wrap w-full'>
 
-        <div className='flex text-[#424242] items-center justify-center px-2 w-full text-lg  arabic'>
-            <p>اسم الصفحة</p>
-            <p className='font-bold mr-2'>( الطب و الصحة )</p>
-        </div>
+        
 
       <div className='flex justify-center flex-wrap xl:flex-nowrap w-full'>
 

@@ -27,7 +27,10 @@ export default function Zoomslider({target, setTarget})  {
       const swiperRef = useRef(null);
 console.log(target, target2)
   return (
-    <div>
+    <div className="relative">
+      <div className="absolute bottom-1 left-1/2 -translate-x-1/2 z-[10001] text-white font-semibold">
+        <p>{target2+1}/10</p>
+      </div>
 
 <Swiper
         onSwiper={setSwiper}
