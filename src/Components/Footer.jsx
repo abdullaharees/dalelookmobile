@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className='relative'>
                     <Link to='/proceed'>
                         <div className='absolute -right-[26px] bottom-[24%]'>
-                            <img className='min-w-[49px]' src={addfoot} alt="addfoot" />
+                            <img className='min-w-[55px]' src={addfoot} alt="addfoot" />
                             <p className='text-[0.6rem] text-center mt-0.5'>أضف إعلانك</p>    
                         </div>
                     </Link>

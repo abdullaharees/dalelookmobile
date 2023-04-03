@@ -15,7 +15,7 @@ const Categorypage = () => {
         <Catbar className='z-50' />
         <Searchbar />
         <Topsliderone className='-z-10' />
-        <Catclicklastdivtwo />
+        <Catclicklastdiv />
         <Footer />
     </div>
   )
