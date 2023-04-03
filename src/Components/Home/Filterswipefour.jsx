@@ -25,7 +25,7 @@ const [nav, setNav] = useState(false)
                       }} 
                     className='bg-black/80 fixed w-full h-screen z-[10002] top-0 left-0'></div> : ''}
                     
-                    <div className={(nav || filterActive === 'item4') ? 'fixed top-0 right-0 w-[19rem] h-screen bg-white z-[10003] duration-300' : 'fixed top-0 right-[-100%] w-[350px] h-screen bg-white z-10 duration-300'}>
+                    <div className={(nav || filterActive === 'item4') ? 'fixed top-3 right-0 w-[19rem] h-screen bg-white z-[10003] duration-300' : 'fixed top-3 right-[-100%] w-[350px] h-screen bg-white z-10 duration-300'}>
 
               <div className='arabic'>
                 <div className='mt-10 mr-5 text-sm mb-1'>
